@@ -1,6 +1,7 @@
-# ExpressionEngine Brazilian Language Pack (pt-BR)
+# ExpressionEngine CMS Brazilian Language Pack (pt-BR)
 
 Pack de linguagem português do Brasil para o ExpressionEngine CMS.
+Copie a pasta pt-br para sua pasta /system/user/language/ e depois selecione a linguagem desejada nas preferências de usuário.
 
 _Brazilian language pack for ExpressionEngine CMS_
 
