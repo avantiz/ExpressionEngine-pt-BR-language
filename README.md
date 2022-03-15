@@ -1,4 +1,4 @@
-# ExpressionEngine-pt-BR-language
+# ExpressionEngine Brazilian Language Pack (pt-BR)
 
 Pack de linguagem português do Brasil para o ExpressionEngine CMS.
 
