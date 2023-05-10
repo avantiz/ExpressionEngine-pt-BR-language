@@ -12,7 +12,13 @@ $lang = array(
 
     'remove_file' => 'Remover Arquivo',
 
-    /* Relacionados */
+    'ft_allow_multi' => 'Permitir múltiplas escolhas?',
+
+    'ft_allow_multi_desc' => 'Quando ativado, autores terão permissão para selecionar múltiplos itens.',
+
+    'ft_multiselect_not_allowed' => 'Este campo não possui seleção de múltipla escolha',
+
+    /* Relationships */
     'any_author' => 'Qualquer autor',
 
     'any_category' => 'Qualquer categoria',
@@ -22,6 +28,8 @@ $lang = array(
     'any_status' => 'Qualquer status',
 
     'relate_entry' => 'Relacionar Publicação',
+
+    'relate_entry_deferred' => 'Editar Itens Relacionados',
 
     'rel_ft_allow_multi' => 'Permitir múltiplos itens relacionados?',
 
@@ -49,7 +57,7 @@ $lang = array(
 
     'rel_ft_limit' => 'Quantidade Máxima de Publicações',
 
-    'rel_ft_limit_desc' => 'Quantiade máxima de publicações para mostrar no campo de itens relacionados.<br><i>Deixe em branco para permitir todos as publicações.</i>',
+    'rel_ft_limit_desc' => 'Quantidade máxima de publicações para mostrar no campo de itens relacionados.<br><i>Deixe em branco para permitir todos as publicações.</i>',
 
     'rel_ft_order' => 'Ordenar por',
 
@@ -74,6 +82,10 @@ $lang = array(
     'rel_ft_display_entry_id' => 'Mostrar IDs das Publicações?',
 
     'rel_ft_display_entry_id_desc' => 'Quando ativado, os IDs das publicações serão exibidos com o título, no campo',
+
+    'rel_ft_deferred' => 'Retardar inicialização do campo?',
+
+    'rel_ft_deferred_desc' => 'Quando ativado, este campo não irá inicializar até que o botão de Editar Itens Relacionados for clicado. Isto poderá resultar em um carregamento mais rápido de página no Painel de Controle.',
 
     'rel_ft_max' => 'Quantidade máxima de publicações relacionadas',
 
@@ -106,7 +118,7 @@ $lang = array(
 
     'duration_ft_units_desc' => 'Determina o período de tempo descrito quando um autor de conteúdo inserir um número como “42”.',
 
-    'valid_duration' => 'Este campo deve conter uma duraçação em %s (ou %s)',
+    'valid_duration' => 'Este campo deve conter uma duração em %s (ou %s)',
 
     /* Arquivo */
     'file_ft_allowed_dirs' => 'Pasta Permitida',
@@ -179,12 +191,24 @@ $lang = array(
 
     'file_dnd_upload_new' => 'Subir Novo',
 
+    'file_grid_vertical_layout_title' => 'Layout de Grade de Arquivos',
+
     /* Grid */
     'grid_add_field' => 'adicionar novo campo',
 
     'grid_add_some_data' => 'Você não adicionou nenhuma linha de dados ainda. <a href="#" class="grid_link_add">Adicionar alguns dados?</a>',
 
     'grid_allow_reorder' => 'Permitir reordenamento de linhas?',
+
+    'grid_vertical_layout' => 'Layout Vertical',
+
+    'grid_horizontal_layout' => 'Layout Horizontal',
+
+    'grid_auto' => 'Auto',
+
+    'grid_vertical_layout_title' => 'Layout de Grade',
+
+    'grid_vertical_layout_desc' => 'Escolha como o campo será exibido nas páginas de publicação.',
 
     'grid_chars_allowed' => 'Caracteres permitidos.',
 
@@ -256,7 +280,7 @@ $lang = array(
 
     'file_grid_setup' => 'Configurações do Arquivo de Grid',
 
-    'file_grid_maximum_rows_hit' => 'Subir tantos arquivos irá exceder o limute máximo de linhas definidas de dados de %s',
+    'file_grid_maximum_rows_hit' => 'Subir muitos arquivos de uma só vez irá exceder o limite máximo de linhas definidas de dados de %s',
 
     /* URL */
     'url_ft_allowed_url_schemes' => 'Esquemas de URL Permitidos',
@@ -266,6 +290,8 @@ $lang = array(
     'url_ft_invalid_url_scheme' => 'Você deve ter uma URL que começa com um esquema válido: %s',
 
     'url_ft_protocol_relative_url' => 'Protocolo de URL Relativa',
+
+    'url_ft_single_slash_protocol_relative_url' => 'URL Relativa a Root',
 
     'url_ft_url_scheme_placeholder' => 'Esquema de Substituição da URL',
 
@@ -278,12 +304,12 @@ $lang = array(
     'colorpicker_allowed_colors_any' => 'Qualquer',
     'colorpicker_allowed_colors_swatches' => 'Amostras',
 
-    'colorpicker_default_color' => 'Côr Padrão',
+    'colorpicker_default_color' => 'Cor Padrão',
     'colorpicker_default_color_desc' => 'Quando definido, se nenhuma cor for selecionada, a cor padrão será utilizada no lugar.',
 
-    'colorpicker_color_not_allowed' => 'Esta côr não é permitida.',
+    'colorpicker_color_not_allowed' => 'Esta cor não é permitida.',
 
-    'no_colorpicker_swatches' => 'Não existem <b>Amostras</b> .',
+    'no_colorpicker_swatches' => 'Não existem <b>Amostras</b>.',
 
     'swatches' => 'Amostras',
 
@@ -292,6 +318,34 @@ $lang = array(
     'colorpicker_swatches_populate_values' => 'Valores',
     'colorpicker_swatches_populate_manually' => 'Preencher as amostras manualmente',
 
+    /* Conditional Evaluation Rules */
+    'contains' => 'contém',
+    'notContains' => 'não contém',
+    'equal' => 'é',
+    'notEqual' => 'não é',
+    'isEmpty' => 'está em branco',
+    'isNotEmpty' => 'tem qualquer valor',
+    'greaterThan' => 'maior que',
+    'greaterOrEqualThan' => 'maior que ou igual à',
+    'lessThan' => 'menor que',
+    'lessOrEqualThan' => 'menor que ou equivalente',
+
+    'turnedOn' => 'está ativado',
+    'turnedOff' => 'está desativado',
+
+    'includes' => 'inclui',
+    'notIncludes' => 'não inclui',
+
+    /* Slider */
+    'field_step' => 'Etapa',
+
+    'field_prefix' => 'Prefixo',
+
+    'field_suffix' => 'Sufixo',
+
+    /* Notes */
+    'notes_note_content' => 'Conteúdo da Nota',
+    'notes_note_content_desc' => 'Este conteúdo irá aparecer como uma nota no formulário de publicação. A formatação Markdown é suportada.',
 );
 
 // EOF

@@ -140,7 +140,7 @@ $lang = array(
 
     'search_total_comments' => 'Total de Comentários',
 
-    'search_total_results' => 'Total dos Rsultados da Busca:',
+    'search_total_results' => 'Total dos Resultados da Busca:',
 
     'search_type' => 'Tipo da Busca',
 
@@ -152,6 +152,7 @@ $lang = array(
 
     'today' => 'Hoje',
 
+    'expired_search_results' => 'Os resultados da busca expiraram. Por favor tente uma nova busca.',
 );
 
 // EOF

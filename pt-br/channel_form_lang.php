@@ -17,7 +17,7 @@ $lang = array(
     /* regras */
     'alpha' => 'O campo %s pode conter apenas caracteres alfanuméricos.',
 
-    'alpha_dash' => 'O campo %s pode conter caracteres alfanuméricos, underlines e hífens.',
+    'alpha_dash' => 'O campo %s pode conter caracteres alfanuméricos, underlines e hifens.',
 
     'alpha_numeric' => 'O campo %s pode conter apenas caracteres alfanuméricos.',
 

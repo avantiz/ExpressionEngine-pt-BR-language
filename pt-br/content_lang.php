@@ -152,6 +152,8 @@ $lang = array(
 
     'expiration_date_desc' => 'A data em que esta publicação irá expirar.',
 
+    'edit_date' => 'Data da última edição',
+
     'filter_autosaves' => 'filtrar salvamentos automáticos',
 
     'filter_by_author' => 'autor',
@@ -172,7 +174,7 @@ $lang = array(
 
     'move_comment_desc' => 'Insira um <abbr title="Identifier">ID</abbr> da publicação para mover este comentário.<br>Atualmente em: %s (%s)',
 
-    'no_comments' => 'Não foram encontrados comentários.',
+    'no_comments' => 'Não encontramos comentários.',
 
     'set_to_closed' => 'Definir para offline',
 
@@ -197,7 +199,7 @@ $lang = array(
 
     'add_author' => 'Adicionar Autor',
 
-    'add_author_desc' => 'As configurações de Grupo sobregravam as configurações individuais, e alguns usuários não podem ser removidos da lista de autores.',
+    'add_author_desc' => 'As configurações de Grupo sobrescrevem as configurações individuais, e alguns usuários não podem ser removidos da lista de autores.',
 
     'add_categories' => 'Adicionar Categorias',
 
@@ -231,7 +233,7 @@ $lang = array(
 
     'autosaved_entries' => 'Publicações Salvas Automaticamente',
 
-    'autosaved_versions' => 'Versões Salvas Autoamticamente',
+    'autosaved_versions' => 'Versões Salvas Automaticamente',
 
     'autosaved_versions_desc' => 'Abaixo está uma lista de versões desta publicação, que foram salvas no modo automático.',
 
@@ -273,7 +275,7 @@ $lang = array(
 
     'clear' => 'Limpar',
 
-    'click_emoticon' => 'Clique em uma imagem para inserí-la em sua publicação',
+    'click_emoticon' => 'Clique em uma imagem para inseri-la em sua publicação',
 
     'click_to_view_your_entry' => 'Clique aqui para visualizar sua publicação',
 
@@ -513,9 +515,9 @@ $lang = array(
 
     'missing_comment' => 'Você deve inserir um comentário',
 
-    'missing_date' => 'Seu registro de canal deve ter uma data.',
+    'missing_date' => 'Sua publicação deve ter uma data.',
 
-    'missing_title' => 'Seu registro de canal deve ter um título.',
+    'missing_title' => 'Sua publicação deve ter um título.',
 
     'move_comments_to_entry' => 'Mover Comentários para a Publicação',
 
@@ -635,7 +637,7 @@ $lang = array(
 
     'preview_not_allowed' => 'A Prévia não é permitida',
 
-    'preview_not_allowed_desc' => "Altere suas pereferências de canal para <a href='%s' target='_blank'>permitir Prévia</a>.",
+    'preview_not_allowed_desc' => "Altere suas preferências de canal para <a href='%s' target='_blank'>permitir Prévia</a>.",
 
     'preview_cannot_display' => 'A Prévia Ao Vivo não pode ser exibida',
 
@@ -657,7 +659,7 @@ $lang = array(
 
     'remove_categories' => 'Remover Categorias',
 
-    'remove_layout' => 'Resetar Layout',
+    'remove_layout' => 'Remover Layout',
 
     'resize_image' => 'Redimensionar Imagem',
 
@@ -781,6 +783,8 @@ $lang = array(
 
     'version_preview' => 'Revisão Número %s',
 
+    'version_no' => 'Revisão #%d',
+
     'versioning_enabled' => 'Ativar revisões de conteúdo?',
 
     'versioning_enabled_desc' => 'Quando ativado, você poderá armazenar até %d revisões deste conteúdo.',
@@ -794,6 +798,10 @@ $lang = array(
     'view_filtered' => 'Retornar às Publicações Filtradas',
 
     'view_wider' => 'Ver Mais Largo',
+
+    'viewing_revision' => 'Você está visualizando uma Revisão',
+
+    'viewing_revision_desc' => 'Qualquer alteração aqui irá modificar a versão mais nova desta publicação',
 
     'warning' => 'Atenção',
 
@@ -894,7 +902,7 @@ $lang = array(
 
     'invalid_date' => 'A data que você forneceu não é válida.',
 
-    'invalid_date_ambiguous' => 'A data que você inseriu é ambígua, por favor ou use um ano de quatro dígitos ou use barras ao invés de hífens.',
+    'invalid_date_ambiguous' => 'A data que você inseriu é ambígua, por favor ou use um ano de quatro dígitos ou use barras ao invés de hifens.',
 
     'invalid_selection' => 'Seleção Inválida',
 
@@ -977,7 +985,7 @@ $lang = array(
 
     'editing_entries' => 'Editando %d publicações',
 
-    'entries_updated' => '%d publicações foram atualziadas.',
+    'entries_updated' => '%d publicações foram atualizadas.',
 
     'filter_selected_entries' => 'Filtrar publicações selecionadas',
 
@@ -989,7 +997,7 @@ $lang = array(
 
     'bulk_edit_destructive' => 'Esta é uma ação destrutiva e irreversível.',
 
-    'bulk_edit_notice' => 'Qualquer campo enviado irá sobregravar todo o conteúdo armazenado neste campo, em todas as publicações selecionadas.',
+    'bulk_edit_notice' => 'Qualquer campo enviado irá sobrescrever todo o conteúdo armazenado neste campo, em todas as publicações selecionadas.',
 
     'bulk_edit_remove_categories_notice' => 'Qualquer categoria selecionada será <b>removida</b> das publicações selecionadas, deixando as outras atribuições das publicações intactas.',
 
@@ -1005,7 +1013,7 @@ $lang = array(
 
     'showing' => 'Exibindo',
 
-    'unauthorized_entry_desc' => 'Você não possui permissões para editar uma das publicações selecionadas.'
+    'unauthorized_entry_desc' => 'Você não possui permissões para editar uma das publicações selecionadas.',
 
     /* Entry Manager */
 

@@ -20,7 +20,7 @@ $lang = array(
 
     'cache_full' => 'O Cache está cheio e deve ser zerado manualmente para prosseguir.',
 
-    'countryfile_missing' => 'Não foi possível localizar o aqruivo denominado country.php na sua pasta de config.',
+    'countryfile_missing' => 'Não foi possível localizar o arquivo denominado country.php na sua pasta de config.',
 
     'ip_address_located' => 'Endereço IP Localizado',
 

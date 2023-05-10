@@ -6,7 +6,7 @@ $lang = array(
     'no_js_warning' => 'O Javascript deve estar ativado para que este tema funcione de forma adequada. Por favor verifique as suas configurações do navegador.',
 
     /* Menu Developer */
-    'addon_manager' => 'Complementos',
+    'addon_manager' => 'Plugins',
 
     'channel_manager' => 'Canais',
 
@@ -24,7 +24,7 @@ $lang = array(
 
     'nav_developer_tools' => 'Ferramentas de Desenvolvimento',
 
-    'nav_tools' => 'Ferrramentas',
+    'nav_tools' => 'Ferramentas',
 
     'nav_design' => 'Design',
 
@@ -53,7 +53,7 @@ $lang = array(
 
     'add_new' => 'Adicionar Novo',
 
-    'addons' => 'Complementos',
+    'addons' => 'Plugins',
 
     'all' => 'Todos',
 
@@ -185,7 +185,7 @@ $lang = array(
 
     'machines_only_request' => 'Você realmente não deveria estar aqui. Este território é apenas para bots e máquinas.',
 
-    'addon_missing_jump_method' => 'O complemento não possui o método de solicitação de atalho de menu.',
+    'addon_missing_jump_method' => 'O plugin não possui o método de solicitação de atalho de menu.',
 
     'update_check_btn' => 'Verificar Atualizações',
 
@@ -204,6 +204,10 @@ $lang = array(
     'version_identifier' => 'identificador:',
 
     'version_update_available' => 'Uma nova versão do ExpressionEngine está disponível',
+
+    'version_update_is_vital' => 'Este é um upgrade recomendado.',
+
+    'version_update_is_major' => 'Este é um upgrade de versão principal.',
 
     'version_update_inst' => "A versão %s do ExpressionEngine está disponível. <a href='#' data-post-url='%s'>Clique aqui para atualizar</a> ou siga as instruções do <a href='%s' rel='external'>manual de atualização</a>.",
 
@@ -273,7 +277,7 @@ $lang = array(
 
     'member_logged_out' => 'Desconectado',
 
-    'member_login_as' => 'Membro loged em como "%s" (%d)',
+    'member_login_as' => 'Membro logado como "%s" (%d)',
 
     /* Comum */
     'by_date' => 'por date',
@@ -409,7 +413,7 @@ $lang = array(
 
     'site_id' => 'ID do Site',
 
-    'site_specific_data' => 'Estes dados são especificos do site. Se você deseja selecionar ou alterar os dados de outro site, então use a aba do menu \'Sites\' para alternar para o site em questão.',
+    'site_specific_data' => 'Estes dados são específicos do site. Se você deseja selecionar ou alterar os dados de outro site, então use a aba do menu \'Sites\' para alternar para o site em questão.',
 
     'sites' => 'Sites',
 
@@ -483,7 +487,7 @@ $lang = array(
     '404_does_not_exist_desc' => 'Desculpe, não foi possível localizar o item que você está tentando acessar no sistema.',
 
     /* Comum */
-    'alphadash_desc' => '<i>Sem espaços. Underlines e hífens são permitidos.</i>',
+    'alphadash_desc' => '<i>Sem espaços. Underlines e hifens são permitidos.</i>',
 
     'auto_br' => 'Quebra de Linha Automática',
 
@@ -565,9 +569,9 @@ $lang = array(
 
     'new_site' => 'Novo Site',
 
-    'no_channels' => 'Nenhum <b>Canal</b> encontrado.',
+    'no_channels' => 'Nenhum <b>Canal</b> foi encontrado.',
 
-    'no_found' => 'Nenhum <b>%s</b> encontrado.',
+    'no_found' => 'Nenhum <b>%s</b> foi encontrado.',
 
     'no_roles_with_design_access_found' => 'Nenhuma <b>Regra</b> com o <b>gerenciador de acesso ao template</b> foi encontrada.',
 
@@ -625,7 +629,7 @@ $lang = array(
 
     'ban_management' => 'Gerenciar Banimento',
 
-    'roles' => 'Roles',
+    'roles' => 'Regras',
 
     'custom_member_fields' => 'Campos de Membro',
 
@@ -634,9 +638,13 @@ $lang = array(
 
     'authenticating' => 'autenticando...',
 
-    'one_click_major_update_instructions' => '<a href="https://docs.expressionengine.com/latest/installation/updating.html#upgrading-major-version" target="_blank">Leia os alertas de atualização antes de continuar!</a><br>Inisra sua senha para continuar:',
+    'one_click_major_update_instructions' => '<a href="https://docs.expressionengine.com/latest/installation/updating.html#upgrading-major-version" target="_blank">Leia os alertas de atualização antes de continuar!</a><br>Insira sua senha para continuar:',
 
-    'one_click_major_update_confirm_error' => '<b>Não foi posssível autenticar</b><br><br>Mais detalhes podem estar disponíveis no console do seu navegador',
+    'one_click_major_update_pro_license_required' => "Devido à quantidade de membros, você precisará <a href='https://expressionengine.com/pro' target='_blank'>adquirir uma licença ExpressionEngine Pro</a> após efetuar o upgrade para o ExpressionEngine 7.",
+
+    'one_click_major_update_pro_license_info' => "Iniciando no ExpressionEngine 7, todos os sites com mais de um usuário precisam de uma licença Pro.",
+
+    'one_click_major_update_confirm_error' => '<b>Não foi possível autenticar</b><br><br>Mais detalhes podem estar disponíveis no console do seu navegador',
 
     'checking_for_updates' => 'Verificando por atualizações...',
 
@@ -684,7 +692,7 @@ $lang = array(
 
     'enter_site_license' => 'Insira a Licença do Site',
 
-     'your_license_is' => 'Sua licença é:',
+    'your_license_is' => 'Sua licença é:',
 
     'license_trial' => 'Teste',
     'license_expired' => 'Expirada',

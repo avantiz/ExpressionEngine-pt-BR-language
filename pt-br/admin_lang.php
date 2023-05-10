@@ -432,7 +432,7 @@ $lang = array(
 
     'ignore_noncritical' => 'Ignorar dados não-essenciais (recomendado)',
 
-    'illegal_characters' => 'O nome que você forneceu pode conter apenas caracteres alfanuméricos, underlines e hífens',
+    'illegal_characters' => 'O nome que você forneceu pode conter apenas caracteres alfanuméricos, underlines e hifens',
 
     'image_cfg' => 'Preferências de Redimensionamento de Imagem',
 
@@ -452,7 +452,7 @@ $lang = array(
 
     'invalid_path' => 'O caminho que você forneceu não é válido:',
 
-    'invalid_status_name' => 'Os nomes de Status podem conter apenas caracteres alfanuméricos, assim como espaços, underlines e hífens.',
+    'invalid_status_name' => 'Os nomes de Status podem conter apenas caracteres alfanuméricos, assim como espaços, underlines e hifens.',
 
     'is_site_on' => 'O site está online?',
 
@@ -492,15 +492,15 @@ $lang = array(
 
     'mac_no_zip' => '(melhor opção para usuários Mac)',
 
-'    mail_format' => 'Formato Padrão do E-Mail',
+    'mail_format' => 'Formato Padrão do E-Mail',
 
-'    mail_protocol' => 'Protocolo de E-mail',
+    'mail_protocol' => 'Protocolo de E-mail',
 
-'    manual_activation' => 'Ativação Manual por um administrador',
+    'manual_activation' => 'Ativação Manual por um administrador',
 
-'    manual_close' => 'Manual',
+    'manual_close' => 'Manual',
 
-'    max_caches' => 'Quantidade Máxima de URIs em Cache',
+    'max_caches' => 'Quantidade Máxima de URIs em Cache',
 
     'max_caches_explanation' => 'Se você colocar em cache suas páginas ou banco de dados, isto irá limitar a quantidade de instâncias em cache. Nós recomendamos 150 para sites pequenos e 300 para sites grandes. O tamanho máximo permitido é 1000.',
 
@@ -516,7 +516,7 @@ $lang = array(
 
     'member_theme' => 'Tema do Perfil Padrão de Membro',
 
-    'member_theme_exp' => 'Determina quual tema será usado para as páginas relacionadas aos membros: login, registro, perfil, etc.',
+    'member_theme_exp' => 'Determina qual tema será usado para as páginas relacionadas aos membros: login, registro, perfil, etc.',
 
     'members_and_groups' => 'Membros e Grupos',
 
@@ -586,7 +586,7 @@ $lang = array(
 
     'pi_author_url' => 'URL do Autor',
 
-    'pi_description' => 'Descriptivo',
+    'pi_description' => 'Descritivo',
 
     'pi_name' => 'Nome',
 
@@ -706,7 +706,7 @@ $lang = array(
 
     'query_result' => 'Resultados do Query',
 
-    'recalculate' => 'Recontagem das Estatíticas',
+    'recalculate' => 'Recontagem das Estatísticas',
 
     'records' => 'Registros no Banco de Dados',
 

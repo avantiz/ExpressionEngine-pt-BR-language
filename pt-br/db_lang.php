@@ -30,7 +30,7 @@ $lang = array(
 
     'db_must_use_where' => 'As atualizações não são permitidas a menos que elas contenham uma cláusula "where".',
 
-    'db_table_name_required' => 'É necessario um nome de tabela para essa operação.',
+    'db_table_name_required' => 'É necessário um nome de tabela para essa operação.',
 
     'db_transaction_failure' => 'Falha de Transação: Retornamos com o status anterior.',
 

@@ -190,7 +190,7 @@ $lang = array(
 
     'email_taken' => 'O e-mail que você escolheu não está disponível',
 
-    'email_too_long' => 'Seu enedereço de e-mail não pode ser maior que '.USERNAME_MAX_LENGTH.' caracteres',
+    'email_too_long' => 'Seu endereço de e-mail não pode ser maior que '.USERNAME_MAX_LENGTH.' caracteres',
 
     'email_username' => 'E-mail %s',
 
@@ -200,7 +200,7 @@ $lang = array(
 
     'existing_password_exp' => 'Você <b>deve</b> inserir sua senha para salvar as alterações.',
 
-    'extended_profile' => 'Perfil Extendido',
+    'extended_profile' => 'Perfil Estendido',
 
     'extras' => 'Extras',
 
@@ -282,7 +282,7 @@ $lang = array(
 
     'member_group_default' => 'Grupo de Membros padrão',
 
-    'member_group_warning' => 'Tennha muito cuidado ao designar isto',
+    'member_group_warning' => 'Tenha muito cuidado ao designar isto',
 
     'user_ip_address' => 'Endereço IP',
 
@@ -330,7 +330,7 @@ $lang = array(
 
     'no_channels_assigned_to_user' => 'Atualmente não existem canais atribuídos à esta conta.',
 
-    'no_extended_fields' => 'Atualmente não existem campos de perfil extendido de membro',
+    'no_extended_fields' => 'Atualmente não existem campos de perfil estendido de membro',
 
     'no_fields_assigned_to_channel' => 'O canal que você escolheu não tem um grupo de campos designados à ele',
 
@@ -444,7 +444,7 @@ $lang = array(
 
     'screenname_too_long' => 'Seu nome de tela não pode ser maior que '.USERNAME_MAX_LENGTH.' caracteres no comprimento',
 
-    'search_subscriptions' => 'Buscar Assinaturass',
+    'search_subscriptions' => 'Buscar Assinaturas',
 
     'select_field' => 'Campo-padrão para postar em',
 

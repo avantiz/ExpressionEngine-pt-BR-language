@@ -30,7 +30,11 @@ $lang = array(
 
     'be_careful' => 'TENHA CAUTELA!',
 
-    'can_edit_status' => 'Pode acessar status',
+    'selectable_buttons_options' => 'Opções de Botões',
+
+    'selectable_buttons_options_desc' => '<em><i>Cada item no campo textarea será incluído como um botão selecionável no formulário de publicação.</i>',
+
+    'can_edit_status' => 'Pode acessar o status',
 
     'category' => 'Categoria',
 
@@ -232,6 +236,24 @@ $lang = array(
 
     'enable_versioning' => 'Ativar Versões das Publicações',
 
+    'field_conditions_sync_success' => 'A lógica da Condicional do Campo foi atualizada',
+
+    'field_conditions_sync_success_desc' => 'Todas as publicações dos canais relacionados foram atualizados para utilizar a lógica condicional mais recente.',
+
+    'field_conditions_sync_existing_entries' => 'Publicações Existentes',
+
+    'field_conditions_sync_desc' => '<b>%d</b> publicações',
+
+    'field_conditions_syncing_conditional_logic' => 'Sincronizando a Lógica Condicional',
+
+    'field_conditions_sync_conditional_logic' => 'Sincronizar a Lógica Condicional',
+
+    'field_conditions_sync_in_progress_message' => 'Por favor, não saia desta tela enquanto o processo de sincronização estiver em andamento.',
+
+    'btn_sync_conditional_logic' => 'Sincronizar a Lógica de Condicional',
+
+    'btn_sync_conditional_logic_working' => 'Sincronizando a lógica de condicional...',
+
     'field' => 'Campo',
 
     'fields_assign_to_group' => 'Atribua um ou mais campos à este grupo.',
@@ -250,13 +272,15 @@ $lang = array(
 
     'field_label_info' => 'Este é o nome que aparecerá na página PUBLICAR',
 
-    'field_manager' => 'Gerenciador de Campos',
+    'field_manager' => 'Campos',
 
     'field_options' => 'Opções do Campo',
 
     'field_populate_from_channel' => 'Preencher o menu à partir de outro campo do canal',
 
     'field_populate_manually' => 'Preencher o menu manualmente',
+
+    'field_populate_missing' => 'Você deve selecionar um campo para preencher a partir dele',
 
     'field_tools' => 'Ferramentas do Campo',
 
@@ -278,9 +302,11 @@ $lang = array(
 
     'global_sort_order' => 'Ordem de Exibição Principal',
 
+    'grid_buttons_options_desc' => 'Defina os pares valor/rótulo, ou cada item na textarea será incluído como botões selecionáveis no formulário de publicação.',
+
     'grid_checkbox_options_desc' => 'Defina os pares de valor/rótulo, ou cada item no bloco de texto irá gerar um par de caixa de seleção e seu rótulo no formulário de publicação.',
 
-    'grid_multiselect_options_desc' => 'Defina os pares de valor/rótulo, ou cada item no bloco de texto irá ser incluído em uma lista de multiseleção no formulário de publicação.',
+    'grid_multiselect_options_desc' => 'Defina os pares de valor/rótulo, ou cada item no bloco de texto irá ser incluído em uma lista de multi-seleção no formulário de publicação.',
 
     'grid_radio_options_desc' => 'Defina os pares de valor/rótulo, ou cada item no bloco de texto irá gerar um par de botão radial e seu respectivo rótulo no formulário de publicação.',
 
@@ -304,7 +330,7 @@ $lang = array(
 
     'id' => 'ID#',
 
-    'illegal_characters' => 'O nome que você forneceu pode conter apenas caracteres alfanuméricos, espaços, underlines e hífens',
+    'illegal_characters' => 'O nome que você forneceu pode conter apenas caracteres alfanuméricos, espaços, underlines e hifens',
 
     'in' => 'em',
 
@@ -336,9 +362,17 @@ $lang = array(
 
     'max_revisions_note' => 'A utilização do armazenamento de versões das suas publicações pode consumir bastante espaço no seu banco de dados, então é recomendável que você limite o número de revisões.',
 
-    'multiselect_options' => 'Opções de Multiseleção',
+    'multiselect_options' => 'Opções de Multi-seleção',
 
-    'multiselect_options_desc' => '<em><i>Cada item no bloco de texto será incluso em um item multiseleção no formulário de publicação.</i>',
+    'multiselect_options_desc' => '<em><i>Cada item no bloco de texto será incluso em um item multi-seleção no formulário de publicação.</i>',
+
+    'make_conditional' => 'Criar condicional?',
+
+    'make_conditional_desc' => 'Apenas mostrar este campo quando as condições de outro(s) campo(s) forem preenchidas',
+
+    'is_conditional' => 'Condicionais',
+
+    'is_conditional_desc' => 'Este campo está sendo utilizado como uma condicional para os campos listados abaixo.',
 
     'new_category' => 'Nova Categoria',
 
@@ -613,7 +647,11 @@ $lang = array(
 
     'custom_field_empty' => 'O seguinte campo é obrigatório:',
 
-    'delete_field' => 'Excuir Campo',
+    'datalist_items' => 'Itens da Lista de Dados',
+
+    'datalist_items_desc' => 'Valores que serão exibidos como opções recomendadas',
+
+    'delete_field' => 'Excluir Campo',
 
     'delete_field_confirmation' => 'Tem certeza que deseja excluir permanentemente este Campo do Canal?',
 
@@ -663,7 +701,7 @@ $lang = array(
 
     'field_name' => 'Nome Curto',
 
-    'field_name_cont' => 'Palavra simples, sem espaços. Underlines e hífens permitidos',
+    'field_name_cont' => 'Palavra simples, sem espaços. Underlines e hifens permitidos',
 
     'field_order' => 'Ordem de Exibição do Campo',
 
@@ -681,7 +719,7 @@ $lang = array(
 
     'is_field_searchable' => 'É um campo localizável na busca?',
 
-    'multi_list_items' => 'Opções de Multiseleção',
+    'multi_list_items' => 'Opções de Multi-seleção',
 
     'new_field_group' => 'Novo Grupo de Campos',
 
@@ -754,11 +792,11 @@ $lang = array(
 
     'field_name_too_lrg' => 'O nome do seu campo excede o tamanho máximo e por isso foi truncado. Por favor, revise.',
 
-    'highlight' => 'Côr de Identificação (opcional)',
+    'highlight' => 'Cor de Identificação (opcional)',
 
     'integrate_category_groups' => 'Integrar Grupos de Categorias',
 
-    'invalid_status_name' => 'Os nomes dos Status podem ter apenas caracteres alfanuméricos, assim como espaços, underlines e hífens.',
+    'invalid_status_name' => 'Os nomes dos Status podem ter apenas caracteres alfanuméricos, assim como espaços, underlines e hifens.',
 
     'invalid_url_title_prefix' => 'Prefixo Inválido de Título da URL',
 
@@ -806,7 +844,11 @@ $lang = array(
 
     'field_max_length' => 'Quantidade Máxima de Caracteres',
 
-    'field_show_fmt' => 'Permitir sobregravar padrões?',
+    'field_min_value' => 'Valor Mínimo',
+
+    'field_max_value' => 'Valor Máximo',
+
+    'field_show_fmt' => 'Permitir sobrescrever padrões?',
 
     'field_show_fmt_desc' => 'Quando ativado, autores poderão escolher sua própria formatação de texto para este campo a partir do formulário de publicação.',
 

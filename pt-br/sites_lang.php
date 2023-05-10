@@ -38,7 +38,7 @@ $lang = array(
 
     'short_name' => 'Nome Curto',
 
-    'short_name_desc' => 'Nome curto para este site.<br><i>Sem espaços. Underlines e hífens são permitidos.</i>',
+    'short_name_desc' => 'Nome curto para este site.<br><i>Sem espaços. Underlines e hifens são permitidos.</i>',
 
     'site' => 'Site',
 
@@ -61,6 +61,15 @@ $lang = array(
     'sites_deleted_desc' => 'Os seguintes sites foram removidos',
 
     'switch_to' => 'Alternar para',
+
+    /* Cor do Site */
+    'site_color_settings' => 'Configurações de Cor do Site',
+
+    'site_color' => 'Aplicar um código de Cor neste site?',
+
+    'site_color_desc' => 'Aplique uma cor customizada na parte superior da barra letarl do painel de controle deste site.',
+
+    'pick_color' => 'Pick a Color'
 
 );
 

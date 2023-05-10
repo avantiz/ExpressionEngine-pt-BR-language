@@ -20,8 +20,6 @@ $lang = array(
 
     'route' => 'Rota',
 
-    'route_not_found' => 'Rota de Template não localizada.',
-
     'segments_required' => 'Segmentos Necessários?',
 
     'template_routes_header' => 'Rotas de Template',

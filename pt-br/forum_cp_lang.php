@@ -228,7 +228,7 @@ $lang = array(
 
     'php_parsing_stage' => 'Estágio de Parsing PHP',
 
-    'php_parsing_stage_desc' => 'Quando definido para <b>saida</b>, o PHP será parseado após o template.',
+    'php_parsing_stage_desc' => 'Quando definido para <b>saída</b>, o PHP será parseado após o template.',
 
     'post_ordering' => 'Ordem das Postagens ',
 
@@ -262,7 +262,7 @@ $lang = array(
 
     'short_name' => 'Nome curto',
 
-    'short_name_desc' => 'Nome curto para esta área.<br><i>Sem espaços. Underlines e hífens são permitidos.</i>',
+    'short_name_desc' => 'Nome curto para esta área.<br><i>Sem espaços. Underlines e hifens são permitidos.</i>',
 
     'show_editing_dates' => 'Mostrar datas de edição?',
 
@@ -308,7 +308,7 @@ $lang = array(
 
     'upload_directory' => 'Pasta de Upload',
 
-    'upload_directory_desc' => 'Caminho complero desta pasta de <mark>upload</mark> .',
+    'upload_directory_desc' => 'Caminho completo desta pasta de <mark>upload</mark> .',
 
     'view_forums' => 'Ver forums',
 
@@ -320,7 +320,7 @@ $lang = array(
 
     'view_posts' => 'Ver postagens',
 
-    'view_posts_desc' => 'Permitir que os seguintes grupos de membro visualizem psotagens.</em><em>Super Administradores <b>sempre</b> possuem permissões.',
+    'view_posts_desc' => 'Permitir que os seguintes grupos de membro visualizem postagens.</em><em>Super Administradores <b>sempre</b> possuem permissões.',
 
     /* Criar/Editar Formulário de Categoria */
     'btn_save_category' => 'Salvar Categoria',
@@ -500,7 +500,7 @@ $lang = array(
 
     'invalid_member_group' => 'O grupo de membros que você enviou não aparenta ser válido',
 
-    'invalid_username' => 'O nome de usário que você enviou não aparenta ser válido',
+    'invalid_username' => 'O nome de usuário que você enviou não aparenta ser válido',
 
     /* Moderadores */
     'btn_save_moderator' => 'Salvar moderadores',
@@ -566,7 +566,7 @@ $lang = array(
     'remove_moderator' => 'remover moderador',
 
     /* Aba de Publicação do Forum */
-    'no_forum_permissions' => 'Você não possui permissõess para postar neste forum.',
+    'no_forum_permissions' => 'Você não possui permissões para postar neste forum.',
 
     'no_forum_topic_id' => 'Não existe tópico no forum com este ID.',
 

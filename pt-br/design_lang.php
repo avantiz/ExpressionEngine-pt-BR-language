@@ -176,7 +176,7 @@ $lang = array(
 
     'name' => 'Nome',
 
-    'name_desc' => 'Sem espaços. Underlines e hífens são permitidos.',
+    'name_desc' => 'Sem espaços. Underlines e hifens são permitidos.',
 
     'no_access_redirect' => 'Redirecionamento dos Sem Permissão de Acesso',
 
@@ -256,9 +256,9 @@ $lang = array(
 
     'template_partials_header' => 'Parciais de Template<br><i>Conteúdo dinâmico reutilizável, tags &amp; templates.</i>',
 
-    'template_route_override' => 'Sobregravar rota de Template',
+    'template_route_override' => 'Sobrescrever rota de Template',
 
-    'template_route_override_desc' => 'Sobregrava o roteamento padrão do ExpressionEngine <mark>grupo/template</mark> .',
+    'template_route_override_desc' => 'Sobrescreve o roteamento padrão do ExpressionEngine <mark>grupo/template</mark> .',
 
     'template_routes' => 'Rotas de Template',
 
@@ -294,7 +294,7 @@ $lang = array(
 
     'view_rendered' => 'ver renderizado',
 
-    'zero_template_groups_found' => 'Nenhum <b>Grupos de Template</b> encontrados',
+    'zero_template_groups_found' => 'Nenhum <b>Grupo de Template</b> foi encontrado',
 
     /* Templates de Sistema -> Mensagens */
     'message_template' => 'Mensagens de Usuário',
@@ -482,7 +482,7 @@ $lang = array(
 
     'global_var_update' => 'Atualizar Variável Geral',
 
-    'global_var_updated' => 'Variável Gerale Atualizada',
+    'global_var_updated' => 'Variável Geral Atualizada',
 
     'global_variable_syntax' => 'Sintaxe da Variável',
 
@@ -570,7 +570,7 @@ $lang = array(
 
     'preferences_updated' => 'Preferências Atualizadas',
 
-    'prefs' => 'Preferênciass',
+    'prefs' => 'Preferências',
 
     'protect_javascript' => 'Proteger Javascript',
 
@@ -752,7 +752,7 @@ $lang = array(
 
     'breadcrumb' => 'Trilha',
 
-    'undersores_allowed' => '(underlines e hífens são permitidos)',
+    'undersores_allowed' => '(underlines e hifens são permitidos)',
 
     'url_manager' => 'Gerenciar Rotas de Templates',
 
@@ -933,7 +933,7 @@ $lang = array(
 
     'resend_activation_emails' => 'Reenviar E-mails de Ativação',
 
-    'reset_password_form' => 'formulário de Resetar Senha',
+    'reset_password_form' => 'formulário de Redefinir Senha',
 
     'search_members' => 'Mensagem Privada - Busca de Membros',
 

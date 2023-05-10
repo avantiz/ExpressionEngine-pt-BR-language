@@ -9,9 +9,9 @@ $lang = array(
 
     'captcha' => 'CAPTCHA',
 
-    'comment_settings' => 'Configurações de Comentários',
+    'comment_settings' => 'Configurar Comentários',
 
-    'consent_requests' => 'Requisições de Consentimento',
+    'consent_requests' => 'Consentimento LGPD',
 
     'content_and_design' => 'Conteúdo & Design',
 
@@ -25,7 +25,7 @@ $lang = array(
 
     'settings' => 'Configurações',
 
-    'hit_tracking' => 'Monitorar Hits',
+    'tracking' => 'Monitorar Hits',
 
     'html_buttons' => 'Botões HTML',
 
@@ -37,7 +37,7 @@ $lang = array(
 
     'outgoing_email' => 'E-mail de Saída',
 
-    'email_settings' => 'Email Settings',
+    'email_settings' => 'Configurações de E-mail',
 
     'pages_settings' => 'Configurações das Páginas',
 
@@ -49,7 +49,7 @@ $lang = array(
 
     'upload_directories' => 'Subir Pastas',
 
-    'url_path_settings' => 'Configurações de URL e Caminho',
+    'url_path_settings' => 'Configurar URL e Caminho',
 
     'word_censoring' => 'Censura de Palavras',
 
@@ -64,7 +64,7 @@ $lang = array(
 
     'check_now' => 'Verificar agora',
 
-    'date_time_fmt' => 'Formato de Date &amp; hora',
+    'date_time_fmt' => 'Formato de Data &amp; hora',
 
     'date_time_settings' => 'Configurações de Data &amp; Hora',
 
@@ -165,7 +165,7 @@ $lang = array(
 
     'url_title_separator' => 'Separador de título de <abbr title="Uniform Resource Location">URL</abbr>',
 
-    'url_title_separator_desc' => 'Caractere usado para separar as palavras geradas na <abbr title="Uniform Resource Location">URL</abbr>s, <mark>hífens (-)</mark> são recomendáveis.',
+    'url_title_separator_desc' => 'Caractere usado para separar as palavras geradas na <abbr title="Uniform Resource Location">URL</abbr>s, <mark>hifens (-)</mark> são recomendáveis.',
 
     'url_title_separator_opt_hyphen' => 'Hífen (este-e-um-exemplo)',
 
@@ -273,7 +273,7 @@ $lang = array(
 
     'newrelic_app_name' => 'Nome da aplicação New Relic',
 
-    'newrelic_app_name_desc' => 'Altera o nome da aplicação que aparece no dashboarde New Relic para esta instalação do ExpressionEngine.',
+    'newrelic_app_name_desc' => 'Altera o nome da aplicação que aparece no dashboard New Relic para esta instalação do ExpressionEngine.',
 
     'output_options' => 'Opções de Saída',
 
@@ -397,7 +397,7 @@ $lang = array(
 
     'dynamic_tracking_disabling_desc' => 'Todo o monitoramento será suspenso quando o número de visitantes online exceder este número.</em> <em>O tracking de usuários Online deve estar ativado para usar este recurso. <a href="%s" ref="external">Saiba mais</a>',
 
-    'enable_entry_view_tracking' => 'Ativar monitoramento de visualizaões de publicações?',
+    'enable_entry_view_tracking' => 'Ativar monitoramento das visualizações das publicações?',
 
     'enable_entry_view_tracking_desc' => 'Quando ativado, o ExpressionEngine irá contabilizar quantas vezes a publicação de um canal é visualizada.',
 
@@ -407,7 +407,11 @@ $lang = array(
 
     'enable_online_user_tracking' => 'Ativar monitoramento de usuários online?',
 
-    'enable_online_user_tracking_desc' => 'Quando ativado, o ExpressionEngine irá trackear os usuários logados.',
+    'enable_online_user_tracking_desc' => 'Quando ativado, o ExpressionEngine irá rastrear os usuários logados.',
+
+    'enable_tracking_cookie' => 'Ativar rastreamento de cookie?',
+
+    'enable_tracking_cookie_desc' => 'Quando ativado, o ExpressionEngine irá definir o cookie <code>exp_tracker</code> em cada página visitada, permitindo a navegação através do histórico do navegador. Desativá-lo pode impactar no comportamento de alguns formulários no front-end do site.',
 
     'log_referrers' => 'Ativar monitoramento de referências?',
 
@@ -418,7 +422,7 @@ $lang = array(
     /* Censura de Palavras */
     'censor_replacement' => 'Caracteres de Substituição',
 
-    'censor_replacement_desc' => 'As palavras que estiverm contidas na lista de palavras censuradas serão substituídas com estes caracteres.',
+    'censor_replacement_desc' => 'As palavras que estiverem contidas na lista de palavras censuradas serão substituídas com estes caracteres.',
 
     'censored_words' => 'Palavras para censurar',
 
@@ -512,13 +516,13 @@ $lang = array(
 
     'menu_addon' => 'Complemento',
 
-    'menu_addon' => 'Complementos',
+    'menu_addon' => 'Plugins',
 
-    'menu_addon_desc' => 'Complementos instalados no sistema',
+    'menu_addon_desc' => 'Plugins instalados no sistema',
 
     'menu_dropdown' => 'Dropdown',
 
-    'menu_items' => 'Itens Menu',
+    'menu_items' => 'Itens do Menu',
 
     'menu_items_desc' => 'Gerencie  o conteúdo deste conjunto de menu',
 
@@ -542,9 +546,9 @@ $lang = array(
 
     'menu_sets' => 'Conjuntos de Menu',
 
-    'menu_sets_removed' => 'Conjuntos de Menu removidos',
+    'menu_sets_deleted' => 'Conjuntos de Menu removidos',
 
-    'menu_sets_removed_desc' => '%d conjuntos de menu foram removidos.',
+    'menu_sets_deleted_desc' => '%d conjuntos de menu foram removidos.',
 
     'menu_single' => 'Link Simples',
 
@@ -635,7 +639,7 @@ $lang = array(
 
     'captcha_rand' => 'Adicionar número randômico?',
 
-    'captcha_rand_desc' => 'Quando ativado, os campos de <abbr title="Teste de Turing Completamente Automatizado para Apartar Computadores e Humanos">CAPTCHA</abbr> vão gerar números rendômicos assim como letras.',
+    'captcha_rand_desc' => 'Quando ativado, os campos de <abbr title="Teste de Turing Completamente Automatizado para Apartar Computadores e Humanos">CAPTCHA</abbr> vão gerar números randômicos, assim como letras.',
 
     'captcha_require_members' => 'É necessário <abbr title="Teste de Turing Completamente Automatizado para Apartar Computadores e Humanos">CAPTCHA</abbr> enquanto logado?',
 
@@ -674,7 +678,7 @@ $lang = array(
     /* Segurança & Privacidade */
     'allow_dictionary_pw' => 'Permitir palavras do dicionário nas senhas?',
 
-    'allow_dictionary_pw_desc' => 'Quando ativado, os membros poderão utilizar palavras comuns do dicionário em suas senhas. <mark>Ë necessário que um arquivo de dicionário seja instalado para que isso funcione.</mark>',
+    'allow_dictionary_pw_desc' => 'Quando ativado, os membros poderão utilizar palavras comuns do dicionário em suas senhas. <mark>É necessário que um arquivo de dicionário seja instalado para que isso funcione.</mark><a href="' . DOC_URL . 'control-panel/settings/security-privacy.html#dictionary-file">Saiba mais</a>.',
 
     'allow_multi_logins' => 'Permitir múltiplas sessões?',
 
@@ -728,7 +732,7 @@ $lang = array(
 
     'member_security_settings' => 'Configurações de Segurança de Membro',
 
-    'name_of_dictionary_file' => 'Arquivo de Dictionário',
+    'name_of_dictionary_file' => 'Arquivo de Dicionário',
 
     'name_of_dictionary_file_desc' => 'Nome do seu arquivo de <mark>dicionário</mark> na sua pasta de config.',
 
@@ -746,19 +750,19 @@ $lang = array(
 
     'pw_min_len_desc' => 'Quantidade mínima de caracteres necessária para as senhas de novos membros.',
 
-    'pw_min_len_does_not_match_policy' => 'A quantidade mínima de caracteres na senha não pode ser menor que %d para a política de segiurança de senhas selecionada.',
+    'pw_min_len_does_not_match_policy' => 'A quantidade mínima de caracteres na senha não pode ser menor que %d para a política de segurança de senhas selecionada.',
 
     'require_cookie_consent' => 'É necessário o consentimento do usuário para definir os cookies?',
 
     'require_cookie_consent_desc' => 'Quando ativado, os cookies não serão definidos para os visitantes (exceto aqueles <b>estritamente necessários</b> para o website funcionar) até que eles aceitem sua política de cookies do site. Veja a documentação do <a href="'.DOC_URL.'add-ons/consent/">Módulo de Consentimento</a> para maiores detalhes.',
 
-    'require_ip_for_login' => 'Ë necesário user agent e <abbr title="Protocolo de Internet">IP</abbr> para login?',
+    'require_ip_for_login' => 'É necessário user agent e <abbr title="Protocolo de Internet">IP</abbr> para login?',
 
     'require_ip_for_login_desc' => 'Quando ativado, os membros não serão capazes de efetuar seu login sem um  user agent válido ou um endereço de <abbr title="Protocolo de Internet">IP</abbr> .',
 
     'require_ip_for_posting' => 'É necessário user agent e <abbr title="Protocolo de Internet">IP</abbr> para publicar?',
 
-    'require_ip_for_posting_desc' => 'Quando ativado, os membros não poderão pubicar sem um user agent válido e um endereço <abbr title="Protocolo de Internet">IP</abbr> .',
+    'require_ip_for_posting_desc' => 'Quando ativado, os membros não poderão publicar sem um user agent válido e um endereço <abbr title="Protocolo de Internet">IP</abbr> .',
 
     'password_security_policy' => 'Política de Segurança de Senhas',
 
@@ -780,7 +784,7 @@ $lang = array(
 
     'share_analytics' => 'Compartilhar analytics com a Equipe de Desenvolvimento do ExpressionEngine?',
 
-    'share_analytics_desc' => 'Ocasionamente EllisLab solicita aos usuários para ajudar a melhorar o ExpressionEngine, <a href="%s">fornecendo analytics, diagnósticos e informações de utilização</a>.',
+    'share_analytics_desc' => 'Ocasionalmente, a EllisLab solicita aos usuários para ajudar a melhorar o ExpressionEngine, <a href="%s">fornecendo analytics, diagnósticos e informações de utilização</a>.',
 
     'cli_enabled' => 'Ativar a Interface de Linha de Comando (CLI)',
 
@@ -805,7 +809,7 @@ $lang = array(
 
     'banish_message' => 'Mostrar mensagem',
 
-    'banish_redirect' => 'Redirecinar para a URL',
+    'banish_redirect' => 'Redirecionar para a URL',
 
     'banishment_message' => 'Mensagem',
 
@@ -857,17 +861,17 @@ $lang = array(
 
     'app_consent_requests' => 'Requisições de Aplicação de Consentimento',
 
-    'user_consent_requests' => 'Requisições de Consentimento de Usuário',
+    'user_consent_requests' => 'Consentimento de Cookies do Usuário (LGPD)',
 
     'author' => 'Autor',
 
     'cookie_consent_disabled' => 'Consentimento de Cookie Desativado',
 
-    'cookie_consent_disabled_desc' => 'As requisições de consentimento relacionadas a cookies não afetam as configurações dos cookies a menos que <a href="%s">as configurações de consentimento de cookie</a> esteja ativada.'
+    'cookie_consent_disabled_desc' => 'As requisições de consentimento relacionadas a cookies não afetam as configurações dos cookies a menos que <a href="%s">as configurações de consentimento de cookie</a> esteja ativada.',
 
     /* Logging */
 
-    'anonymize_consent_logs' => 'Tornar Anônimo dos Logs de Auditoria de Consentimento',
+    'anonymize_consent_logs' => 'Tornar Anônimo os Logs de Auditoria de Consentimento',
 
     'anonymize_consent_logs_desc' => 'Os campos selecionados ficarão anônimos nos logs de Auditoria de Consentimento',
 

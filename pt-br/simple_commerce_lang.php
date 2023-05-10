@@ -40,7 +40,7 @@ $lang = array(
 
     'commerce_encrypt_paypal_desc' => 'Quando ativado, os botões do PayPal e links serão encriptados por JavaScript.',
 
-    'commerce_ipn_notice' => 'Aviso de Pagamento Instantâneo é um serviço do PayPal que permite que o processamento das transaçõe no seu site e então avise o ExpressionEngine quando a transação estiver completa e aceita. Isto permite que as compras não sejam armazenadas e reordenadas no módulo de Comércio Simples até que a transação esteja finalizada. O Módulo de Comércio Simples do ExpressionEngine automatiza tudo então tudo o que você tem que fazer é ativar o Aviso de Pagamentos Instantâneos no site do PayPal e forneça ele com a URL abaixo. <a href="%s" rel="external">Saiba Mais</a>',
+    'commerce_ipn_notice' => 'Aviso de Pagamento Instantâneo é um serviço do PayPal que permite que o processamento das transações no seu site e então avise o ExpressionEngine quando a transação estiver completa e aceita. Isto permite que as compras não sejam armazenadas e reordenadas no módulo de Comércio Simples até que a transação esteja finalizada. O Módulo de Comércio Simples do ExpressionEngine automatiza tudo então tudo o que você tem que fazer é ativar o Aviso de Pagamentos Instantâneos no site do PayPal e forneça ele com a URL abaixo. <a href="%s" rel="external">Saiba Mais</a>',
 
     'commerce_ipn_url' => '<abbr title="Unified Resource Locator">URL</abbr> do <abbr title="Aviso de Pagamento Instantâneo">IPN</abbr> ',
 
@@ -52,7 +52,7 @@ $lang = array(
 
     'commerce_key_path_desc' => 'Caminho completo para a chave privada.',
 
-    'commerce_paypal_cert_id' => '<abbr title="Identifier">ID</abbr> da Cerfificação Pública',
+    'commerce_paypal_cert_id' => '<abbr title="Identifier">ID</abbr> da Certificação Pública',
 
     'commerce_paypal_cert_id_desc' => '<abbr title="Identifier">ID</abbr> fornecido ao certificado público pelo PayPal.',
 
@@ -70,7 +70,7 @@ $lang = array(
 
     'commerce_temp_path' => 'Caminho do arquivo temporário encriptado',
 
-    'commerce_temp_path_desc' => 'Caminho completo dos arquivos encriptados tenporários.',
+    'commerce_temp_path_desc' => 'Caminho completo dos arquivos encriptados temporários.',
 
     'cost' => 'Custo',
 
@@ -278,7 +278,7 @@ $lang = array(
 
     'purchase_created_desc' => 'A compra para o item <b>%s</b> foi criada.',
 
-    'purchase_date' => 'Data da comra',
+    'purchase_date' => 'Data da compra',
 
     'purchase_not_created' => 'Não foi possível Criar a Compra',
 
@@ -360,7 +360,7 @@ $lang = array(
 
     'template' => 'Template',
 
-    'temporary_directory_unwritable' => 'A pasta especificada para gravar os arquicos temporários não possui permissões de gravação.',
+    'temporary_directory_unwritable' => 'A pasta especificada para gravar os arquivos temporários não possui permissões de gravação.',
 
     'txn_id' => 'PIN (TXN ID)',
 

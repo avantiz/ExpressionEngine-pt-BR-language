@@ -256,15 +256,15 @@ $lang = array(
 
     'numberedList_rte' => 'Lista Numerada',
 
-    'ol_rte' => 'Lista Numberada',
+    'ol_rte' => 'Lista Numerada',
 
     'bulletedList_rte' => 'Lista Marcação',
 
     'ul_rte' => 'Lista Marcação',
 
-    'outdent_rte' => 'Reduzir Indentação',
+    'outdent_rte' => 'Reduzir Recuo',
 
-    'indent_rte' => 'Aumentar indentação',
+    'indent_rte' => 'Aumentar Recuo',
 
     'link_rte' => 'Link',
 
@@ -288,7 +288,7 @@ $lang = array(
 
     'alignment:left_rte' => 'Alinhar pela Esquerda',
 
-    'alignment:right_rte' => 'Alnhar pela Direita',
+    'alignment:right_rte' => 'Alinhar pela Direita',
 
     'alignment:center_rte' => 'Alinhar pelo Centro',
 
@@ -327,7 +327,6 @@ $lang = array(
     'inlinestyle_rte' => 'Estilo',
 
     'rte_plugins' => 'Plugins',
-    
     'rte_toolbar_buttons' => 'Botões da Barra de Ferramentas',
 
     'rte_definedlinks_rte' => 'Links das Páginas',
@@ -338,7 +337,7 @@ $lang = array(
 
     'pages_rte' => 'Páginas',
 
-    'fontcolor_rte' => 'Côr do texto',
+    'fontcolor_rte' => 'Cor do texto',
 
     ''=>''
 );

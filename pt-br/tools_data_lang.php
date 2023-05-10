@@ -3,7 +3,7 @@
 $lang = array(
 
     /* SQL Manager */
-    'analyze' => 'Analizar Tabelas',
+    'analyze' => 'Analisar Tabelas',
 
     'browse' => 'Abrir',
 
@@ -45,7 +45,7 @@ $lang = array(
 
     'sql_query_instructions'=> 'Use este formulário para enviar um query SQL',
 
-    'sql_status' => 'Inormações do Status',
+    'sql_status' => 'Informações do Status',
 
     'sql_system_vars' => 'Variáveis do Sistema',
 

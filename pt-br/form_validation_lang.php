@@ -4,11 +4,11 @@ $lang = array(
 
     'alpha' => 'Este campo pode conter apenas caracteres alfabéticos.',
 
-    'alpha_dash' => 'Este campo pode conter caracteres alfanuméricos, underlines e hífens.',
+    'alpha_dash' => 'Este campo pode conter caracteres alfanuméricos, underlines e hifens.',
 
     'alpha_dash_period' => 'Este campo pode conter apenas caracteres alfanuméricos, underlines, hifens, pontos e emojis.',
 
-    'alpha_dash_space' => 'Este campo pode conter apenas caraceres alfanuméricos, underlines, hífens e espaços.',
+    'alpha_dash_space' => 'Este campo pode conter apenas caracteres alfanuméricos, underlines, hifens e espaços.',
 
     'alpha_numeric' => 'Este campo pode conter apenas caracteres alfanuméricos.',
 
@@ -19,6 +19,8 @@ $lang = array(
     'exact_length' => 'Este campo deve ter exatamente %s caracteres.',
 
     'greater_than' => 'Este campo deve ser maior que: %s',
+
+    'greater_or_equal_than' => 'Este campo deve ser igual ou maior que: %s',
 
     'hex_color' => 'Este campo deve conter um código de cor hexadecimal válido.',
 
@@ -36,11 +38,13 @@ $lang = array(
 
     'less_than' => 'Este campo deve ser menor que: %s',
 
+    'less_or_equal_than' => 'Este campo deve ser igual ou menor que: %s',
+
     'limithtml' => 'Este campo pode conter apenas as seguintes tags HTML: %s. Se você deseja utilizar sinais de maior/menor  < em seu texto, mas não HTML por favor tente substituir por &amp;lt; no lugar de < e &amp;gt; para substituir >.',
 
     'matches' => 'Este campo não combina com o campo %s.',
 
-    'max_length' => 'Este campo não pode excedeer %s caracteres.',
+    'max_length' => 'Este campo não pode exceder %s caracteres.',
 
     'min_length' => 'Este campo deve ter pelo menos %s caracteres.',
 
@@ -56,7 +60,7 @@ $lang = array(
 
     'unique_email' => 'Este campo deve conter um único endereço de e-mail.',
 
-    'valid_base64' => 'Este campo pode conter apenas caracteres do set de carateres base64 (alfanumérico, barra, sinal de mais e igual).',
+    'valid_base64' => 'Este campo pode conter apenas caracteres do set de caracteres base64 (alfanumérico, barra, sinal de mais e igual).',
 
     'valid_email' => 'Este campo deve conter um endereço de e-mail válido.',
 

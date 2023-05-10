@@ -146,13 +146,13 @@ if (! function_exists('forgot_password_instructions')) {
     function forgot_password_instructions()
     {
         return <<<EOF
-Para resetar sua senha, por favor vá para a seguinte página:
+Para redefinir sua senha, por favor vá para a seguinte página:
 
 {reset_url}
 
 Então efetue o login com seu nome de usuário: {username}
 
-Se você não deseja resetar sua senha, ignore esta mensagem. Ela irá expirar em 24 horas.
+Se você não deseja redefinir sua senha, ignore esta mensagem. Ela irá expirar em 24 horas.
 
 {site_name}
 {site_url}
@@ -196,10 +196,9 @@ if (! function_exists('email_changed_notification')) {
     function email_changed_notification()
     {
         return <<<EOF
-Seu endereço de e-mail foi alterado e este enedereço de e-mail não está mais associado com sua conta.
+Seu endereço de e-mail foi alterado e este endereço de e-mail não está mais associado com sua conta.
 
 Se você não fez essa alteração, por favor entre em contato imediatamente com um administrador do site.
-
 
 {site_name}
 {site_url}
@@ -436,7 +435,7 @@ if (! function_exists('private_message_notification')) {
 
 {recipient_name},
 
-{sender_name} enviou para você uma Mensagem Privada entitulada ‘{message_subject}’.
+{sender_name} enviou para você uma Mensagem Privada intitulada ‘{message_subject}’.
 
 Você poderá visualizar essa mensagem, efetuando seu login e checando sua caixa de mensagens em:
 {site_url}
@@ -514,7 +513,7 @@ if (! function_exists('forum_report_notification_title')) {
     function forum_report_notification_title()
     {
         return <<<EOF
-Postagem dennunciada em {forum_name}
+Postagem denunciada em {forum_name}
 EOF;
     }
 }

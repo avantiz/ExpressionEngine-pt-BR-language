@@ -8,7 +8,7 @@ $lang = array(
 
     'alphanumeric_not_allowed' => 'Delimitadores alfanuméricos não são permitidos (a-z / 0-9)',
 
-    'assign_fields' => 'Campos Attribuídos',
+    'assign_fields' => 'Campos Atribuídos',
 
     'assign_fields_blurb' => 'Combine seus campos de dados com os campos de membro do ExpressionEngine.',
 
@@ -54,7 +54,7 @@ $lang = array(
 
     'duplicate_field_assignment' => 'Atribuição de Campo Duplicado: %x',
 
-    'duplicate_member_id' => 'ID de Membro Duplicado: "%x"<br />É recomendávelque você não use uma tag &lt;member_id&gt; e permita que o ExpressionEngine efetue a incrementação do member_id automaticamente',
+    'duplicate_member_id' => 'ID de Membro Duplicado: "%x"<br />É recomendável que você não use uma tag &lt;member_id&gt; e permita que o ExpressionEngine efetue a incrementação do member_id automaticamente',
 
     'duplicate_username' => 'Nome de Usuário Duplicado: ',
 
@@ -114,13 +114,13 @@ $lang = array(
 
     'member_fields' => 'Campos de Membro',
 
-    'member_id_warning' => 'ALERTA: Se você tiver tags &lt;member_id&gt; em seu XML, os membros existentes com o mesmo member_id será SOBREGRAVADO! Proceda com cautela!',
+    'member_id_warning' => 'ALERTA: Se você tiver tags &lt;member_id&gt; em seu XML, os membros existentes com o mesmo member_id será SOBRESCRITO! Proceda com cautela!',
 
     'member_import_utility' => 'Utilitário de Importação de Membros',
 
-    'member_import_welcome' => 'Este utilitáriopermite que você importe membros de outros sistemas para o ExpressionEngine',
+    'member_import_welcome' => 'Este utilitário permite que você importe membros de outros sistemas para o ExpressionEngine',
 
-    'missing_birthday_child' => 'Elementos dependentes de &lt;birthday&gt;: &lt;day&gt; &lt;month&gt; &lt;year&gt; era esperados e não foram encontrados',
+    'missing_birthday_child' => 'Elementos dependentes de &lt;birthday&gt;: &lt;day&gt; &lt;month&gt; &lt;year&gt; eram esperados e não foram encontrados',
 
     'missing_email_field' => 'Você deve atribuir um campo para "email"',
 
@@ -152,7 +152,7 @@ $lang = array(
 
     'password_warning' => 'Alerta de Senha',
 
-    'password_warning_blurb' => 'Se você não fornecer uma senha, seus membros importados precisrão utilizar o link do recurso "Senha Esquecida" para efetuar o login. Também, se suas configurações de encriptação do ExpressionEngine (sha1/md5) não corresponderem ao tipo de encriptação dos seus dados importados, as senhas não funcionarão e os membros afetados precisarão usar o link do recurso "Esqueci a Senha" da mesma maneira. Senhas do tipo="text" serão encriptadas para você durante a importação.',
+    'password_warning_blurb' => 'Se você não fornecer uma senha, seus membros importados precisarão utilizar o link do recurso "Senha Esquecida" para efetuar o login. Também, se suas configurações de encriptação do ExpressionEngine (sha1/md5) não corresponderem ao tipo de encriptação dos seus dados importados, as senhas não funcionarão e os membros afetados precisarão usar o link do recurso "Esqueci a Senha" da mesma maneira. Senhas do tipo="text" serão encriptadas para você durante a importação.',
 
     'plaintext_passwords' => 'As senhas estão em texto puro',
 
@@ -190,7 +190,7 @@ $lang = array(
 
     'xml_file_loc' => 'Local do Arquivo XML de Membros',
 
-    'xml_file_loc_blurb' => 'O local do arquivo deve ser relativo à sua pasta do painel de controlde do seu site. Ex: ../membros.xml, se inserido na pasta raiz do site.',
+    'xml_file_loc_blurb' => 'O local do arquivo deve ser relativo à sua pasta do painel de controle do seu site. Ex: ../membros.xml, se inserido na pasta raiz do site.',
 
     'xml_imported' => 'Os dados XML dos Membros foram importados',
 

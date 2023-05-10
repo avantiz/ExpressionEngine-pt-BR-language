@@ -16,7 +16,7 @@ $lang = array(
 
     'cp_translation' => 'Tradução do <abbr title="Painel de Controle">CP</abbr> ',
 
-    'cp_translations' => 'Traduções do Painel de Controle',
+    'cp_translations' => 'Traduções do Painel',
 
     'data_operations' => 'Operações de Dados',
 
@@ -347,7 +347,7 @@ $lang = array(
 
     'value' => 'Valor',
 
-    'xml_parse_error' => 'Não foi possivel parsear o XML',
+    'xml_parse_error' => 'Não foi possível parsear o XML',
 
     'xml_parse_error_desc' => 'Verifique o arquivo XML em busca de sintaxe incorreta.',
 
@@ -385,7 +385,7 @@ $lang = array(
 
     'query_form_error' => 'Atenção: Query não executado',
 
-    'query_form_error_desc' => 'Não foi possível executar seu, por favor revise e corrija os erros abaixo. ',
+    'query_form_error_desc' => 'Não foi possível executar seu query, por favor revise e corrija os erros abaixo. ',
 
     'query_results' => 'Resultados do Query',
 
@@ -497,7 +497,7 @@ $lang = array(
 
     /* Exportar Endereços de E-mail */
 
-    'mass_notification_export' => 'Aviso de Exportação em Massa',
+    'mass_notification_export' => 'Exportar Contatos',
 
     'export_email_addresses_title' => 'Exportar um arquivo <abbr title="Valores Separados por Vírgula">CSV</abbr>',
 
@@ -561,7 +561,7 @@ $lang = array(
 
     'debug_tools_missing_fieldtypes' => 'Campos perdidos',
 
-    'debug_tools_missing_fieldtypes_desc' => 'Os seguintes tipos de campos foram encontrados no banco de dados, mas não foram instalados da forma correta. isto poderá causar problemas ao editar canais, campos e publicações. Para resolver isto, ou você instala os complementos que estão faltando ou você remove estes campos de suas tabelas.',
+    'debug_tools_missing_fieldtypes_desc' => 'Os seguintes tipos de campos foram localizados no banco de dados, mas não foram instalados da forma correta. isto poderá causar problemas ao editar canais, campos e publicações. Para resolver isto, ou você instala os plugins que estão faltando ou você remove estes campos de suas tabelas.',
 
     'debug_tools_no_missing_fieldtypes_desc' => 'NBão existem campos perdidos no banco de dados. Maravilha!',
 

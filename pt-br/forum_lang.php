@@ -18,7 +18,7 @@ $lang = array(
 
     'administrator' => 'Administrador',
 
-    'admins_can_not_be_banned' => 'Admins podem sermpre serem banidos por um Super Admin',
+    'admins_can_not_be_banned' => 'Admins podem sempre serem banidos por um Super Admin',
 
     'advanced_search' => 'Busca Avançada',
 
@@ -102,7 +102,7 @@ $lang = array(
 
     'collapse' => 'Agrupar',
 
-    'color' => 'Côr',
+    'color' => 'Cor',
 
     'confirm_subscription_removal' => 'Confirmação de Remoção de Assinatura de Membro',
 
@@ -144,7 +144,7 @@ $lang = array(
 
     'edited' => 'Editado',
 
-    'ee_discussion_forum' => 'Formum de Discussão do ExpressionEngine',
+    'ee_discussion_forum' => 'Forum de Discussão do ExpressionEngine',
 
     'ee_forums' => 'Forums ExpressionEngine',
 
@@ -204,7 +204,7 @@ $lang = array(
 
     'forums_removed_desc' => 'Os seguintes forums foram removidos:',
 
-    'found_in' => 'Palavras-chave encontrados nas seguintes respostas:',
+    'found_in' => 'Palavras-chave encontradas nas seguintes respostas:',
 
     'found_in_many' => 'Palavras-chave encontradas em muitas respostas',
 
@@ -398,7 +398,7 @@ $lang = array(
 
     'no_feed_results' => 'Sua solicitação não retornou nenhum resultado',
 
-    'no_feed_specified' => 'A URL que você requisitpu não contém números de ID do feed ativos.',
+    'no_feed_specified' => 'A URL que você requisitou não contém números de ID do feed ativos.',
 
     'no_forums_to_move_to' => 'Não existem outros forums para mover este tópico.',
 

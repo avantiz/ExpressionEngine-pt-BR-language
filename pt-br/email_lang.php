@@ -46,7 +46,7 @@ $lang = array(
 
     'email_no_smtp_unpw' => 'Erro: Você deve designar um nome de usuário SMTP e senha.',
 
-    'email_no_socket' => 'Não foi possível abrir um socket para o Sendmail. Por favor verifique suas congfigurações.',
+    'email_no_socket' => 'Não foi possível abrir um socket para o Sendmail. Por favor verifique suas configurações.',
 
     'email_send_failure_phpmail' => 'Não foi possível enviar email usando o PHP mail(). Seu servidor pode não estar configurado para enviar e-mail usando este método.',
 

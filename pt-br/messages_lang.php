@@ -236,7 +236,7 @@ $lang = array(
 
     'view_message' => 'Ver Mensagem',
 
-    'waiting_period_not_reached' => 'Para prevenirmos spam, é necesário um período de tempo de %time% de espera, antes que novos membros tenham permissão para enviarem Mensagens Privadas novamente.',
+    'waiting_period_not_reached' => 'Para prevenirmos spam, é necessário um período de tempo de %time% de espera, antes que novos membros tenham permissão para enviarem Mensagens Privadas novamente.',
 
     'zero_percent' => '0%',
 

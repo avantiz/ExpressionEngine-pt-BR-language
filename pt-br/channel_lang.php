@@ -236,7 +236,7 @@ $lang = array(
 
     'allow_guest_submission' => 'Permitir envios de visitantes?',
 
-    'allow_guest_submission_desc' => 'Quando ativado, uusários não registrados poderão enviar formulários a partir deste canal.',
+    'allow_guest_submission_desc' => 'Quando ativado, usuários não registrados poderão enviar formulários a partir deste canal.',
 
     'allow_safe_html' => 'Permitir apenas HTML seguro',
 
