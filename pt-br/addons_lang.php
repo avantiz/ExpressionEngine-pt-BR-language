@@ -5,15 +5,15 @@ $lang = array(
     /* Menu da Barra Lateral */
     'addon' => 'Complemento',
 
-    'addon_manager' => 'Complementos',
+    'addon_manager' => 'Plugins',
 
     'updates' => 'Atualizações',
 
-    'add-on-store' => 'Loja de Complementos',
+    'add-on-store' => 'Loja de Plugins',
 
-    'addons' => 'Complementos',
+    'addons' => 'Plugins',
 
-    'all_addons' => 'Todos os Complementos',
+    'all_addons' => 'Todos os Plugins',
 
     'author' => 'Autor',
 
@@ -21,7 +21,7 @@ $lang = array(
 
     'example_usage' => 'Exemplo de Uso',
 
-    'manage_addon_extensions' => 'Gerenciar Extensões Complementos',
+    'manage_addon_extensions' => 'Gerenciar Extensões Plugins',
 
     'manage_extensions' => 'Gerenciar Extensões',
 
@@ -33,11 +33,11 @@ $lang = array(
 
     'requested_module_not_installed' => 'O módulo solicitado não está instalado:',
 
-    'search_addons_button' => 'buscar complementos',
+    'search_addons_button' => 'buscar plugins',
 
-    'show_all_addons' => 'Todos %d Complementos',
+    'show_all_addons' => 'Todos %d Plugins',
 
-    'third_party_addons' => 'Complementos de Terceiros',
+    'third_party_addons' => 'Plugins de Terceiros',
 
     'update' => 'Atualizar',
 
@@ -53,25 +53,25 @@ $lang = array(
     'confirm_uninstall_desc' => 'Você está tentando desinstalar os seguintes itens, por favor confirme esta ação.',
 
     /* Filtros */
-    'addons_installed' => 'Complementos Instalados',
+    'addons_installed' => 'Plugins Instalados',
 
-    'addons_installed_desc' => 'O(s) seguinte(s) complemento(s) foram instalados: ',
+    'addons_installed_desc' => 'O(s) seguinte(s) plugin(s) foram instalados: ',
 
-    'addons_not_installed' => 'Complementos Não Instalados',
+    'addons_not_installed' => 'Plugins Não Instalados',
 
     'addon_not_fully_functional' => '%s não está completamente funcional',
 
-    'existing_consent_request' => 'Os seguintes complementos não foram instalados devido a uma Solicitação de Consentimento que este complemento está tentando criar:',
+    'existing_consent_request' => 'Os seguintes plugins não foram instalados devido a uma Solicitação de Consentimento que este plugin está tentando criar:',
 
     'contact_developer' => 'Por favor entre em contato com o desenvolvedor para assistência.',
 
-    'addons_uninstalled' => 'Complementos desinstalados',
+    'addons_uninstalled' => 'Plugins desinstalados',
 
-    'addons_uninstalled_desc' => 'O(s) seguinte(s) complemento(s) foram desinstalados: ',
+    'addons_uninstalled_desc' => 'O(s) seguinte(s) plugin(s) foram desinstalados: ',
 
-    'addons_updated' => 'Complementos Atualizados',
+    'addons_updated' => 'Plugins Atualizados',
 
-    'addons_updated_desc' => 'Os seguintes complementos foram atualizados: ',
+    'addons_updated_desc' => 'Os seguintes plugins foram atualizados: ',
 
     'btn_save_settings' => 'Salvar Configurações',
 
@@ -142,7 +142,7 @@ $lang = array(
 
     'extensions_disabled_message' => 'As Extensões foram desativadas na configuração do sistema, portanto elas não estão presentes nesta lista.',
 
-    'extensions_disabled_warning' => 'Para poder instalar este complemento, você precisa ativar as extensões. Você deseja ativar extensões?',
+    'extensions_disabled_warning' => 'Para poder instalar este plugin, você precisa ativar as extensões. Você deseja ativar extensões?',
 
     'extensions_enabled' => 'Extensões Ativadas',
 
@@ -192,7 +192,7 @@ $lang = array(
     'license_error_file_not_writable' => 'A pasta de cache precisa ter permissões de escrita para que o ExpressionEngine Pro funcione',
     'license_error_file_broken' => 'Ocorreu um erro ao validar o status da sua licença ExpressionEngine Pro',
 
-    'license_license_expired' => 'Licença Exprirada',
+    'license_license_expired' => 'Licença Expirada',
     'license_invalid_domain' => 'Domínio de Site Inválido',
     'license_invalid_license_key' => 'Chave Inválida',
     'license_missing_license_key' => 'Chave não-encontrada',

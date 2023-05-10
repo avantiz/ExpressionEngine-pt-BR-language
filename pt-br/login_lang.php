@@ -39,6 +39,8 @@ $lang = array(
 
     'login' => 'Login',
 
+    'multi_auth_redirect_site_not_found' => 'O site não foi localizado na configuração de multi login.',
+
     'new_password' => 'Nova senha',
 
     'new_password_confirm' => 'Confirmar nova senha',
@@ -47,7 +49,7 @@ $lang = array(
 
     'password_changed' => 'Senha Alterada com Sucesso',
 
-    'reset_password' => 'Resetar Senha',
+    'reset_password' => 'Redefinir Senha',
 
     'successfully_changed_password' => 'Você alterou sua senha com sucesso. Por favor efetue o login usando sua nova senha.',
 
@@ -66,8 +68,7 @@ $lang = array(
     'password_rank_strong' => 'Forte',
 
     'password_rank_very_strong' => 'Muito Forte',
-    
-    'reset' => 'Resetar',
+    'reset' => 'Redefinir',
 
     'confirm' => 'Confirmar',
 

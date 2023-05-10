@@ -22,7 +22,7 @@ $lang = array(
 
     'imglib_libpath_invalid' => 'O caminho para sua biblioteca de imagens não está correto. Por favor defina o caminho correto em suas preferências de imagem.',
 
-    'imglib_unsafe_config' => 'Um item de configuração contém caracateres que não são seguros para serem executados em um shell de desenvolviento.',
+    'imglib_unsafe_config' => 'Um item de configuração contém caracteres que não são seguros para serem executados em um shell de desenvolvimento.',
 
     'imglib_missing_font' => 'Não foi possível localizar uma fonte para a utilização.',
 
@@ -32,7 +32,7 @@ $lang = array(
 
     'imglib_rotate_unsupported' => 'A rotação de imagem não parece ser suportada pelo seu servidor.',
 
-    'imglib_rotation_angle_required' => 'Um ângulo de rotação é necessário para rotaccionar a imagem.',
+    'imglib_rotation_angle_required' => 'Um ângulo de rotação é necessário para rotacionar a imagem.',
 
     'imglib_save_failed' => 'Não foi possível salvar a imagem. Por favor tenha certeza de que a imagem e a pasta de arquivos possuem permissão de escrita.',
 

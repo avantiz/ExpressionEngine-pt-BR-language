@@ -6,12 +6,12 @@ $lang = array(
 
     'ut_boolean' => 'Booleano',
 
-    'ut_double' => 'Float', // can be the same as float
+    'ut_double' => 'Flutuante', // can be the same as float
     'ut_failed' => 'Falhou',
 
     'ut_file' => 'Nome do Arquivo',
 
-    'ut_float' => 'Float',
+    'ut_float' => 'Flutuante',
 
     'ut_integer' => 'Inteiro',
 

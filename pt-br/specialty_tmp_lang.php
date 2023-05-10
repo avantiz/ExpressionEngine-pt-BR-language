@@ -162,7 +162,7 @@ $lang = array(
 
     'use_this_template_exp' => 'Se desativado, este template não será usado. Ao invés disso, a mensagem será gerada dinamicamente a cada linguagem escolhida pelo usuário',
 
-    'user_messages_template_desc' => 'O objetivo deste template é mostrar mensagens de erro e outras mensagens para usuários após eles executarem certas ações, como efetuar login, enviar um formulário, ect.',
+    'user_messages_template_desc' => 'O objetivo deste template é mostrar mensagens de erro e outras mensagens para usuários após eles executarem certas ações, como efetuar login, enviar um formulário, etc.',
 
     'user_messages_template_warning' => 'Não exclua qualquer uma das cinco variáveis obrigatórias:',
 
@@ -170,7 +170,7 @@ $lang = array(
 
     'validated_member_notify_desc' => 'Este template define o aviso que membros receberão quando um admin validar sua conta de membro.',
 
-    'mbr_tmpl_should_be_in' => 'Os templates legados de membro deven estar em uma pasta',
+    'mbr_tmpl_should_be_in' => 'Os templates legados de membro devem estar em uma pasta',
 
 );
 

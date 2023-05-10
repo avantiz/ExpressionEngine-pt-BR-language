@@ -62,11 +62,13 @@ $lang = array(
 
     'invalid_directory' => 'Você especificou uma pasta inválida',
 
-    'invalid_filename' => 'O nome do arquivo de imagem pode conter apenas caracteres alfanuméricos, hífens e underlines.',
+    'invalid_filename' => 'O nome do arquivo de imagem pode conter apenas caracteres alfanuméricos, hifens e underlines.',
 
     'invalid_mime' => 'Tipo mime inválido, o arquivo não pode ser processado',
 
-    'invalid_short_name' => 'O nome curto da manipulação de imagem pode conter apenas caracteres alfanuméricos, hífens e underlines e não pode ser ter o nome de "thumbs".',
+    'invalid_short_name' => 'O nome curto da manipulação de imagem pode conter apenas caracteres alfanuméricos, hifens e underlines e não pode ser ter o nome de "thumbs".',
+
+    'link' => 'Link',
 
     'invalid_upload_destination' => 'O local de destino do upload é inválido.',
 
@@ -82,7 +84,7 @@ $lang = array(
 
     'no_upload_destination' => 'Nenhuma pasta de upload de destino foi localizada',
 
-    'not_an_image' => 'O arquivo selcionado não é uma imagem',
+    'not_an_image' => 'O arquivo selecionado não é uma imagem',
 
     'pixels' => 'pixels',
 
@@ -409,7 +411,7 @@ $lang = array(
 
     'upload_member_groups' => 'Grupos de Membros Permitidos',
 
-    'upload_member_groups_desc' => 'Os seguintes grupos de usuários possuem permissão para subir arquivos nesta pasat.</em><br /><em>Super Administradores <b>sempre</b> possuem permissões.',
+    'upload_member_groups_desc' => 'Os seguintes grupos de usuários possuem permissão para subir arquivos nesta pasta.</em><br /><em>Super Administradores <b>sempre</b> possuem permissões.',
 
     'upload_roles' => 'Regras de Permissão de Membros',
 
@@ -471,15 +473,15 @@ $lang = array(
 
     'watermark_text' => 'Texto',
 
-    'watermark_text_color' => 'Côr do Texto',
+    'watermark_text_color' => 'Cor do Texto',
 
     'watermark_text_desc' => 'Conteúdo deste carimbo',
 
     'watermark_text_dropshadow' => 'Ativar sombreamento?',
 
-    'watermark_text_dropshadow_color' => 'Côr do Sombreamento',
+    'watermark_text_dropshadow_color' => 'Cor do Sombreamento',
 
-    'watermark_text_dropshadow_desc' => 'Quando ativado, um sombramento será renderizado.',
+    'watermark_text_dropshadow_desc' => 'Quando ativado, um sombreamento será renderizado.',
 
     'watermark_text_dropshadow_distance' => 'Distância do Sombreamento',
 
@@ -546,7 +548,7 @@ $lang = array(
 
     'kind' => 'Tipo',
 
-    'image_manip_quality' => 'Qualitdade',
+    'image_manip_quality' => 'Qualidade',
 
     'image_manip_quality_desc' => 'Qualidade Final da imagem',
 
@@ -734,9 +736,9 @@ $lang = array(
 
     'please_select' => 'Por Favor Selecione&hellip',
 
-    'post_format' => 'Pós Formatação de Imagem',
+    'post_format' => 'Pós-Formatação de Imagem',
 
-    'pre_format' => 'Pré Formtação de Imagem',
+    'pre_format' => 'Pré-Formatação de Imagem',
 
     'preferences_updated' => 'Preferências Atualizadas',
 
@@ -870,7 +872,7 @@ $lang = array(
 
     'wm_padding' => 'Entorno',
 
-    'wm_shadow_color' => 'Côr do Sombreamento',
+    'wm_shadow_color' => 'Cor do Sombreamento',
 
     'wm_shadow_distance' => 'Distância do Sombreamento',
 

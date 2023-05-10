@@ -211,7 +211,6 @@ $lang = array(
     'member_assignment_none' => 'Nenhum, membros neste grupo serão excluídos',
 
     'member_assignment_warning' => 'Os Membros estão atualmente inseridos em alguns destes grupos. Para qual grupo de membros eles deverão ser inseridos nesse momento?',
-    
     'member_reassignment_warning' => 'Para qual Regra Primária os membros devem ser realocados?',
 
     'member_cfg' => 'Configurações de Regras',
@@ -254,7 +253,7 @@ $lang = array(
 
     'role_groups_desc' => 'Designar para este usuário um grupo de permissões de acesso.',
 
-    'additional_roles' => 'Regras Complementos',
+    'additional_roles' => 'Regras de Plugins',
 
     'role' => 'Regra',
 
@@ -306,7 +305,7 @@ $lang = array(
 
     'members_approved_success_desc' => 'Os seguintes membros foram aprovados:',
 
-    'cannot_activate_member_role_not_exists' => 'Não foi possível ativar %s. O regrta de membro %s não existe.',
+    'cannot_activate_member_role_not_exists' => 'Não foi possível ativar %s. A regra de membro %s não existe.',
 
     'cannot_activate_member_role_is_locked' => 'Não foi possível ativar %s. A regra de membro %s está bloqueada.',
 
@@ -364,7 +363,7 @@ $lang = array(
 
     'register_member' => 'Novo Membro',
 
-    'resend' => 'Renvio de E-mail de Ativação',
+    'resend' => 'Reenvio de E-mail de Ativação',
 
     'save_role' => 'Editar Regra',
 
@@ -441,7 +440,7 @@ $lang = array(
 
     'ban_options' => 'Quando um membro banido tentar realizar acesso',
 
-    'ban_options_desc' => 'Você pode prevení-lo de acessar completamente seu site, redirecionando-o para outro site ou mostrando para ele uma mensagem de site indisponível ; ou ainda - permitir que ele acesse o site apenas no modo de visualização.',
+    'ban_options_desc' => 'Você pode impedi-lo de acessar completamente seu site, redirecionando-o para outro site ou mostrando para ele uma mensagem de site indisponível ; ou ainda - permitir que ele acesse o site apenas no modo de visualização.',
 
     'ban_settings_updated' => 'Configurações de Banimento atualizadas',
 
@@ -465,7 +464,7 @@ $lang = array(
 
     'show_this_message' => 'Mostrar mensagem',
 
-    'user_banning' => 'Gerenciamento da Condição de Banimento',
+    'user_banning' => 'Gerenciamento de Banidos',
 
     'username_banning' => 'Nomes de Usuários Restritos',
 
@@ -480,11 +479,11 @@ $lang = array(
 
     'access_utilities_desc' => 'Quando ativado, os usuários inseridos neste grupo poderão acessar a seção de utilitários do sistema.',
 
-    'addon_access' => 'Permissões de Acesso aos Complementos',
+    'addon_access' => 'Permissões de Acesso aos Plugins',
 
-    'addons_access' => 'Acesso Permitido aos Complementos',
+    'addons_access' => 'Acesso Permitido aos Plugins',
 
-    'addons_access_desc' => 'Usuários podem acessar todos os complementos selecionados.',
+    'addons_access_desc' => 'Usuários podem acessar todos os plugins selecionados.',
 
     'allowed_actions' => 'Ações Permitidas',
 
@@ -502,9 +501,9 @@ $lang = array(
 
     'be_careful_assigning_groups' => 'Tenha EXTREMA cautela atribuindo as preferências de grupo - especialmente as marcadas em destaque.',
 
-    'can_access_addons' => 'Acessar complementos',
+    'can_access_addons' => 'Acessar plugins',
 
-    'can_access_addons_desc' => 'Quando ativado, os usuários inseridos neste grupo poderão acessar o gerenciador de complementos.',
+    'can_access_addons_desc' => 'Quando ativado, os usuários inseridos neste grupo poderão acessar o gerenciador de plugins.',
 
     'can_access_communicate' => 'Comunicar',
 
@@ -526,7 +525,7 @@ $lang = array(
 
     'can_access_logs' => 'Logs',
 
-    'can_access_logs_desc' => 'Pode acessar e ediar todos os logs (Desenvolvedor, Painel de Controle, Desaceleração, E-mail e Busca).',
+    'can_access_logs_desc' => 'Pode acessar e editar todos os logs (Desenvolvedor, Painel de Controle, Desaceleração, E-mail e Busca).',
 
     'can_access_members' => 'Acessar membros',
 
@@ -546,11 +545,11 @@ $lang = array(
 
     'can_access_utilities' => 'Utilitários',
 
-    'add_on_manager' => 'Complementos',
+    'add_on_manager' => 'Plugins',
 
-    'can_admin_addons' => 'Instalar ou remover complementos',
+    'can_admin_addons' => 'Instalar ou remover plugins',
 
-    'can_admin_addons_desc' => 'Quando ativado, os usuários inseridos neste grupo poderão instalar e remover complementos.',
+    'can_admin_addons_desc' => 'Quando ativado, os usuários inseridos neste grupo poderão instalar e remover plugins.',
 
     'can_admin_channels' => 'Gerenciador de Acesso ao Canal',
 
@@ -590,7 +589,7 @@ $lang = array(
 
     'can_edit_html_buttons' => 'Pode editar seus próprios botões de formatação HTML',
 
-    'can_edit_own_comments' => 'Editar os próprios comentáiros',
+    'can_edit_own_comments' => 'Editar os próprios comentários',
 
     'can_email_from_profile' => 'Pode enviar e-mail para outros membros através do console de e-mail do perfil',
 
@@ -767,9 +766,9 @@ $lang = array(
 
     'activation_emails_resent' => 'E-mails de Ativação Reenviados',
 
-    'can_access_addon_settings' => 'Complementos',
+    'can_access_addon_settings' => 'Plugins',
 
-    'can_manage_consents' => 'Requisições de Consentimento',
+    'can_manage_consents' => 'Consentimento LGPD',
 
     'can_manage_consents_desc' => 'Quando ativado, membros deste grupo serão capazes de gerenciar as requisições de consentimento.',
 
@@ -1023,7 +1022,7 @@ $lang = array(
 
     'create_role_group_error' => 'Não foi possível criar Nova Regra de Grupo',
 
-    'create_role_group_error_desc' => 'Não foi possível criar esta regra de grupo, por favir revise e corrija os erros abaixo.',
+    'create_role_group_error_desc' => 'Não foi possível criar esta regra de grupo, por favor revise e corrija os erros abaixo.',
 
     'create_role_group_success' => 'Regra de Grupo Criada',
 
@@ -1031,7 +1030,7 @@ $lang = array(
 
     'edit_role_group' => 'Editar Regra de Grupo',
 
-    'edit_role_group_error' => 'Não foi posssível atualizar a Regra do Grupo',
+    'edit_role_group_error' => 'Não foi possível atualizar a Regra do Grupo',
 
     'edit_role_group_error_desc' => 'Não foi possível atualizar esta regra de grupo, por favor revise e corrija os erros abaixo.',
 
@@ -1043,7 +1042,7 @@ $lang = array(
 
     'create_role' => 'Nova Regra',
 
-    'create_role_error' => 'Não foi posssível criar a Regra',
+    'create_role_error' => 'Não foi possível criar a Regra',
 
     'create_role_error_desc' => 'Não foi possível criar esta regra, por favor revise e corrija os erros abaixo.',
 
@@ -1247,9 +1246,9 @@ $lang = array(
 
     'access_overview_can_manage_settings' => 'Gerenciar configurações e acesso',
 
-    'access_overview_can_access_addons' => 'Gerenciador de Acesso de Complementos',
+    'access_overview_can_access_addons' => 'Gerenciador de Acesso de Plugins',
 
-    'access_overview_can_admin_addons' => 'Gerenciar Complementos (instalar/remover)',
+    'access_overview_can_admin_addons' => 'Gerenciar Plugins (instalar/remover)',
 
     'access_overview_can_upload_new_toolsets' => 'Atualizar conjuntos de RTE',
 

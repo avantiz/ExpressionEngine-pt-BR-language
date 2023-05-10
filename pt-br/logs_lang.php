@@ -39,11 +39,11 @@ $lang = array(
 
     'search_log' => 'Busca',
 
-    'search_logs_button' => 'buscar logss',
+    'search_logs_button' => 'buscar logs',
 
     'search_results' => 'Resultados da Busca',
 
-    'search_terms' => 'Têrmos da Busca',
+    'search_terms' => 'Termos da Busca',
 
     'searched_in' => 'Buscando em',
 
@@ -55,7 +55,7 @@ $lang = array(
 
     'view_cp_log' => 'Logs de Acesso ao Painel de Controle',
 
-    'view_developer_log' => 'Logs de Desemvolvedor',
+    'view_developer_log' => 'Logs de Desenvolvedor',
 
     'view_email_logs' => 'Logs de E-mail',
 
@@ -72,14 +72,14 @@ $lang = array(
 
     'deprecated_meaning' => '<p>Uma ou duas coisas aconteceram:</p>
 <ol>
- <li>O sistema detectou um código nativo ou um complemento cujo código foi descontinuado e que pode parar de funcionar ou causar problemas no sistema. Isto significa que este complemento em sua instalação está acessando uma parte do núcleo do ExpressionEngine que a EllisLab planeja remover no futuro para melhorar a qualidade do produto.</li>
- <li>Um alerta ou mensage foi levantada por código nativo ou de um complemento para visualização do Super Admin.</li>
+ <li>O sistema detectou um código nativo ou um plugin cujo código foi descontinuado e que pode parar de funcionar ou causar problemas no sistema. Isto significa que este plugin em sua instalação está acessando uma parte do núcleo do ExpressionEngine que a EllisLab planeja remover no futuro para melhorar a qualidade do produto.</li>
+ <li>Um alerta ou mensagem foi levantada por código nativo ou de um plugin para visualização do Super Admin.</li>
 </ol>
 <p>Para remediar este aviso, você pode precisa fazer o seguinte:</p>
 <ul>
  <li>Entre em contato como desenvolvedor que gerencia a instalação do seu ExpressionEngine e busque por ajuda</li>
- <li>Tenha certeza que você possui a última versão de todos os seus complementos instalados</li>
- <li>Entre em contato com o desenvolvedor do complemento que está provocando a mensagem para que ele tenha conhecimento do problema e programe uma atualização</li>
+ <li>Tenha certeza que você possui a última versão de todos os seus plugins instalados</li>
+ <li>Entre em contato com o desenvolvedor do plugin que está provocando a mensagem para que ele tenha conhecimento do problema e programe uma atualização</li>
 </ul>',
 
     'deprecated_on_line' => 'em %s na linha %d.',

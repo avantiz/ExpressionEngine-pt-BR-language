@@ -100,7 +100,7 @@ $lang = array(
 
     'date_range' => 'Intervalo da Data',
 
-    'delete_confirm' => 'Confdirmação de Exclusão de Comentários',
+    'delete_confirm' => 'Confirmação de Exclusão de Comentários',
 
     'delete_selected' => 'Excluir Selecionados',
 

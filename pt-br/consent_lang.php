@@ -18,7 +18,7 @@ $lang = [
 
     'consent_request' => 'Requisição de Consentimento',
 
-    'consent_request_created' => 'Requisição de Consetimento Criada',
+    'consent_request_created' => 'Requisição de Consentimento Criada',
 
     'consent_request_created_desc' => 'A requisição de consentimento <b>%s</b> foi criada.',
 
@@ -52,7 +52,7 @@ $lang = [
 
     'new_consent_version_destructive' => 'Esta é uma ação destrutiva e irreversível.',
 
-    'new_consent_version_notice' => 'Editar esta Requisição de Consentimento resultará na revogação de todos os consentimentos autorrizados anteriormente.',
+    'new_consent_version_notice' => 'Editar esta Requisição de Consentimento resultará na revogação de todos os consentimentos autorizados anteriormente.',
 
     'all_consents' => 'Todos os %d consentimentos',
 

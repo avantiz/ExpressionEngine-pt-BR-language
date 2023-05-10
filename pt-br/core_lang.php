@@ -151,7 +151,7 @@ Se você efetuou estas alterações, por favor aceite as modificações na homep
 
     'submission_error' => 'o formulário que você enviou contém os seguintes erros',
 
-    'theme_folder_wrong' => 'Sua pasta de tema está incorreta. Por favor vá para as <a href="%s">Configurações de URL e Caminho</a> e verifique o <mark>Caminho das Temas</mark> e <mark>URL dos Temas</mark>.',
+    'theme_folder_wrong' => 'Sua pasta de tema está incorreta. Por favor vá para as <a href="%s">Configurar URL e Caminho</a> e verifique o <mark>Caminho das Temas</mark> e <mark>URL dos Temas</mark>.',
 
     'unable_to_load_field_type' => 'Não foi possível carregar o arquivo do tipo de campo: %s.<br /> Confirme se o arquivo do tipo de campo está localizado na pasta /system/user/addons/ ',
 
@@ -179,13 +179,15 @@ Se você efetuou estas alterações, por favor aceite as modificações na homep
     /* Template.php */
     'error_fix_module_processing' => 'Por favor verifique se o módulo \'%x\' está instalado e que \'%y\' é um método disponível no módulo',
 
+    'error_fix_install_addon' => 'Por favor verifique se o plugin \'%x\' está instalado.',
+
     'error_fix_syntax' => 'Por favor corrija a sintaxe no seu template.',
 
     'error_invalid_conditional' => 'Você tem uma condicional inválida em seu template. Por favor revise suas condicionais por strings não-fechadas, operadores inválidos, um } perdido ou um {/if} perdido.',
 
     'error_layout_too_late' => 'A tag do plugin ou módulo antes da declaração do layout. Por favor mova a tag do layout para o topo do seu template.',
 
-    'error_multiple_layouts' => 'Múltiplos Layouts encontrados, por favor tenha certeza que você tem apenas uma tag de layout por template',
+    'error_multiple_layouts' => 'Múltiplos Layouts foram encontrados, por favor tenha certeza que você tem apenas uma tag de layout por template',
 
     'error_tag_module_processing' => 'A seguinte tag não pode ser processada:',
 
@@ -197,16 +199,18 @@ Se você efetuou estas alterações, por favor aceite as modificações na homep
 
     'template_loop' => 'Você provocou um loop de template devido a sub-templates aninhados indevidamente (\'%s\' chamado recursivamente)',
 
+    'route_not_found' => 'A Rota de Template não foi localizada.',
+
     /* E-mail */
     'error_sending_email' => 'Não foi possível enviar e-mail neste momento.',
 
-    'forgotten_email_sent' => 'Se este endereço de e-mail estiver associado à uma conta, as instruções para resetar sua senha foram enviadas para esse e-mail.',
+    'forgotten_email_sent' => 'Se este endereço de e-mail estiver associado à uma conta, as instruções para redefinir sua senha foram enviadas para esse e-mail.',
 
     'no_email_found' => 'O endereço de e-mail que você forneceu não foi localizado no banco de dados.',
 
-    'password_has_been_reset' => 'Sua senha foi resetada e uma nova foi enviada para você, por e-mail.',
+    'password_has_been_reset' => 'Sua senha foi alterada e uma nova foi enviada para você, por e-mail.',
 
-    'password_reset_flood_lock' => 'Você tentou resetar sua senha muitas vezes hoje. Por favor verifique sua caixa de entrada e pastas de spam para solicitações anteriores, ou entre em contato com o administrador do site.',
+    'password_reset_flood_lock' => 'Você tentou redefinir sua senha muitas vezes hoje. Por favor verifique sua caixa de entrada e pastas de spam para solicitações anteriores, ou entre em contato com o administrador do site.',
 
     'forgotten_username_email_sent' => 'Se este endereço de e-mail estiver associado à uma conta, um e-mail contendo seu nome de usuário já foi enviado para você.',
 

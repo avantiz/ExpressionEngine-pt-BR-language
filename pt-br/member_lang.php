@@ -46,7 +46,7 @@ $lang = array(
 
     'close_tags' => 'Fechar Tags',
 
-    'color' => 'Côr',
+    'color' => 'Cor',
 
     'communications' => 'Comunicações',
 
@@ -96,7 +96,7 @@ $lang = array(
 
     'forum_posts' => 'Total de Publicações',
 
-    'gd_required' => 'A biblioteca de imagem GD é necessária para eexcutar esta ação.',
+    'gd_required' => 'A biblioteca de imagem GD é necessária para executar esta ação.',
 
     'green' => 'Verde',
 
@@ -116,7 +116,7 @@ $lang = array(
 
     'image_assignment_error' => 'Encontramos um erro ao tentar atribuir sua imagem',
 
-    'image_max_size_exceeded' => 'O tamanho máximo permitdo para as imagens é de  %s kilobytes',
+    'image_max_size_exceeded' => 'O tamanho máximo permitido para as imagens é de  %s kilobytes',
 
     'insert_member_instructions' => 'Clique em um nome de membro para adicioná-los à sua lista de ignorados',
 
@@ -156,9 +156,9 @@ $lang = array(
 
     'mbr_admin_will_activate' => 'Um administrador do site irá ativar sua conta e avisá-lo(a) quando ela estiver pronta para uso.',
 
-    'mbr_cannot_activate_role_not_exists' => 'Unable to activate your account. The member role does not exist.',
+    'mbr_cannot_activate_role_not_exists' => 'Não foi possível ativar sua conta. A regra de membro não existe.',
 
-    'mbr_cannot_activate_role_is_locked' => 'Unable to activate your account. The member role is locked.',
+    'mbr_cannot_activate_role_is_locked' => 'Não foi possível ativar sua conta. A regra de membro está trancada.',
 
     'mbr_aim_console' => 'AOL IM',
 
@@ -192,11 +192,11 @@ $lang = array(
 
     'mbr_delete_blurb' => 'Tem certeza que deseja excluir sua conta? Todos os registros, publicações, comentários e qualquer outro conteúdo associado com sua conta será excluído, também.',
 
-    'mbr_delete_notify_message' => 'A(s) seguinte(s) pessoa(s) excluiram sua conta: {name}',
+    'mbr_delete_notify_message' => 'A(s) seguinte(s) pessoa(s) excluíram sua conta: {name}',
 
     'mbr_delete_notify_title' => 'Conta de membro excluída em {site_name}',
 
-    'mbr_delete_warning' => 'ALERTA: ESTA ÁÇÃO NÃO PODE SER DESFEITA!',
+    'mbr_delete_warning' => 'ALERTA: ESTA AÇÃO NÃO PODE SER DESFEITA!',
 
     'mbr_descending' => 'Decrescente',
 
@@ -300,7 +300,7 @@ $lang = array(
 
     'mbr_message_disclaimer' => 'Ao enviar esta mensagem, seu endereço de e-mail será revelado ao destinatário.',
 
-    'mbr_message_logged' => 'Notea: As mensagens de E-mail são logadas e visíveis pelos administradores do site',
+    'mbr_message_logged' => 'Nota: As mensagens de E-mail são logadas e visíveis pelos administradores do site',
 
     'mbr_missing_fields' => 'Todos os campos são obrigatórios',
 
@@ -384,7 +384,7 @@ $lang = array(
 
     'mbr_sort' => 'Ordem',
 
-    'mbr_subject' => 'Assumnto do E-mail',
+    'mbr_subject' => 'Assunto do E-mail',
 
     'mbr_submit' => 'Enviar',
 
@@ -420,7 +420,7 @@ $lang = array(
 
     'mbr_your_are_logged_in' => 'Você está logado(a) e pronto para usar sua nova conta.',
 
-    'mbr_your_email' => 'Seu enedereço de E-mail',
+    'mbr_your_email' => 'Seu endereço de E-mail',
 
     'mbr_your_stats' => 'Suas Estatísticas de Conta',
 
@@ -550,7 +550,7 @@ $lang = array(
 
     'signature_updated' => 'A assinatura foi atualizada',
 
-    'signatures_not_allowed' => 'As assintauras estão desativadas no momento',
+    'signatures_not_allowed' => 'As assinaturas estão desativadas no momento',
 
     'size' => 'Tamanho',
 
@@ -619,7 +619,7 @@ Nos reservamos ao direito de remover, editar ou mover qualquer mensagem por qual
 
     'mbr_missing_password' => 'Por favor insira uma nova senha.',
 
-    'mbr_password_changed' => 'Senha alterada com suceso',
+    'mbr_password_changed' => 'Senha alterada com sucesso',
 
     'mbr_reset_password' => 'Por favor insira uma nova senha',
 

@@ -35,6 +35,18 @@ $lang = array(
     'updating_to_from' =>
     'Atualizando <b>%s</b> de %s para %s',
 
+    'prepMajorUpgrade_step' =>
+    'Executando checagens e preparações',
+
+    'preflight_moving_addons_to_user_folder' =>
+    'Movendo plugins para a pasta de usuário',
+
+    'preflight_verifying_php_version' =>
+    'Verificando a versão do PHP antes de atualizar o upgrade para o ExpressionEngine 7',
+
+    'preflight_verifying_php_version_error' =>
+    'ExpressionEngine 7 necessita do PHP 7.2.5 ou mais recente.<br>A versão atual do PHP é: %s',
+
     'preflight_step' =>
     'Checagem pré-instalação',
 
@@ -48,7 +60,7 @@ $lang = array(
     'Atualizando arquivos',
 
     'updateAddons_step' =>
-    'Verificando complementos para atualizações automáticas',
+    'Verificando plugins para atualizações automáticas',
     
     'turnSystemOn_step' =>
     'Ativar sistema',
@@ -78,7 +90,7 @@ Código do status de retorno: %s',
 %s',
 
     'missing_signature_header' =>
-    'Não foi poss[ivel verificar o arquivo de atualização, o cabeçalho de "Assinatura do Pacote" não foi encontrada na resposta.',
+    'Não foi possível verificar o arquivo de atualização, o cabeçalho de "Assinatura do Pacote" não foi encontrada na resposta.',
 
     'could_not_verify_download' =>
     'Não foi possível verificar a assinatura ou integridade do arquivo de atualização baixado. Hash obtido:
